@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "every_onion",
+  "project_id": "97da2373-63a6-4d62-ae52-60c1d8fa8e2a"
+}
