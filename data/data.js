@@ -1,8 +1,48 @@
 /* Every Onion — all site content. Edit here; no build step is needed to serve the site. */
 window.EO = {
  "meta": {
-  "checked": "30 September 2026"
+  "checked": "30 September 2026",
+  "priced": "30/09/2026",
+  "sync": "30/09/2026 04:12"
  },
+ "priceObserved": [
+  {
+   "item": "Brown onion",
+   "obs": "Woolworths 1 kg bag $2.50; 2 kg bag $5.50; ALDI 1 kg $2.99, loose $3.49/kg; Drakes $4.00/kg; IGA $4.90/kg; Foodland (SA) 1 kg $1.95; Milkrun 1 kg $2.80"
+  },
+  {
+   "item": "Brown onion, sacks",
+   "obs": "Spudshed 10 kg $7.99; Marino Bros 10 kg $10.00; Broomes 10 kg $15.99; Supa IGA 10 kg $19.50; Fruit For All 20 kg $44.00"
+  },
+  {
+   "item": "Red onion",
+   "obs": "Woolworths 1 kg bag $5.00, loose $0.83 each; ALDI 1 kg $4.49, loose $4.99/kg; IGA $5.90/kg; IGA 1 kg bags $4.99–$5.99; Foodland $4.30–$4.99/kg"
+  },
+  {
+   "item": "White onion",
+   "obs": "Woolworths loose $0.89 each"
+  },
+  {
+   "item": "Spring onion",
+   "obs": "ALDI bunch $2.69; Woolworths bunch $3.00; organic bunch $5.00"
+  },
+  {
+   "item": "Bulb spring onion",
+   "obs": "Woolworths white globe onion bunch $5.00"
+  },
+  {
+   "item": "Eschalot",
+   "obs": "Supa IGA / Supamart $19.90/kg"
+  },
+  {
+   "item": "Pickling onion",
+   "obs": "Harris Farm 500 g $1.99"
+  },
+  {
+   "item": "Organic brown / red",
+   "obs": "CERES Fair Food organic brown 1 kg $7.50; organic red 500 g $5.50"
+  }
+ ],
  "onions": [
   {
    "id": "brown",
@@ -71,7 +111,18 @@ window.EO = {
     "South Australia and Tasmania together grow around two-thirds of the national onion crop.",
     "New-season Australian onions usually start in the Lockyer Valley, Queensland, around September; stored onions carry the market through winter.",
     "Sold loose, and in 1 kg, 2 kg, 5 kg, 10 kg and 20 kg bags. Every Onion has found no upper limit."
-   ]
+   ],
+   "code": "ON-BRN-001",
+   "price": {
+    "kg": 3.0,
+    "g": 160,
+    "basis": "OBS",
+    "note": "",
+    "each": 0.48,
+    "per1000": 480.0,
+    "sackKg": 10,
+    "sackPrice": 15.99
+   }
   },
   {
    "id": "red",
@@ -139,7 +190,18 @@ window.EO = {
     "The purple colour comes from anthocyanins in the outer layer of each ring, which is why a red onion goes pink when pickled in vinegar.",
     "‘Spanish onion’ means a red onion in Australia but a large, mild yellow onion in the United States and Britain. Every Onion recommends confirming colour before purchase.",
     "Red onions store less well than browns; Australian supermarkets carry them year-round from a mix of fresh and stored crops."
-   ]
+   ],
+   "code": "ON-RED-001",
+   "price": {
+    "kg": 4.99,
+    "g": 170,
+    "basis": "OBS",
+    "note": "",
+    "each": 0.85,
+    "per1000": 848.3,
+    "sackKg": 10,
+    "sackPrice": 39.0
+   }
   },
   {
    "id": "white",
@@ -198,7 +260,16 @@ window.EO = {
     "White onions bruise more easily and keep for a shorter time than brown onions, because their skins are thinner.",
     "In Mexico, white onions are the default onion for salsas, tacos and pickles.",
     "White onions have a higher water content than brown onions, which makes them crisp raw and quick to soften in a pan."
-   ]
+   ],
+   "code": "ON-WHT-001",
+   "price": {
+    "kg": 4.95,
+    "g": 180,
+    "basis": "OBS",
+    "note": "",
+    "each": 0.89,
+    "per1000": 891.0
+   }
   },
   {
    "id": "spring-onion",
@@ -271,7 +342,16 @@ window.EO = {
     "Woolworths sells this onion as the ‘Spring Onion Eschallot Bunch’, which uses two of its names and is spelled in a way no other onion is.",
     "Coles sells a ‘Salad Onion’ which is also a spring onion.",
     "The green leaves are hollow. Every Onion regards this as the spring onion's most distinctive feature."
-   ]
+   ],
+   "code": "ON-GRN-001",
+   "price": {
+    "kg": 25.0,
+    "g": 15,
+    "basis": "OBS",
+    "note": "per stalk; sold in bunches",
+    "each": 0.38,
+    "per1000": 375.0
+   }
   },
   {
    "id": "bulb-spring-onion",
@@ -340,7 +420,16 @@ window.EO = {
     "In Mexican cooking these are charred whole and served as cebollitas asadas alongside grilled meat.",
     "Woolworths sells a version as the ‘White Globe Onion Bunch’.",
     "Every part of it is edible. Every Onion does not recommend eating the roots."
-   ]
+   ],
+   "code": "ON-WHT-002",
+   "price": {
+    "kg": 31.0,
+    "g": 40,
+    "basis": "OBS",
+    "note": "sold in bunches",
+    "each": 1.24,
+    "per1000": 1240.0
+   }
   },
   {
    "id": "eschalot",
@@ -413,7 +502,16 @@ window.EO = {
     "‘Eschalot’ is an old English spelling of the French échalote. It has survived mainly in Australia.",
     "Eschalots are traditionally planted on the shortest day of the year and harvested on the longest. In Australia this means June and December.",
     "Coles sells loose eschalots as ‘Brown Onion Shallots’."
-   ]
+   ],
+   "code": "ON-PNK-001",
+   "price": {
+    "kg": 19.9,
+    "g": 35,
+    "basis": "OBS",
+    "note": "",
+    "each": 0.7,
+    "per1000": 696.5
+   }
   },
   {
    "id": "asian-red-shallot",
@@ -485,7 +583,18 @@ window.EO = {
     "Fried shallots (bawang goreng) are made by slicing these thinly and frying them slowly in oil until golden.",
     "In Tamil Nadu and Kerala, small onions (chinna vengayam) are the traditional onion for sambar.",
     "Usually sold dry, in 250 g to 1 kg bags, in Asian and Indian grocers rather than supermarkets."
-   ]
+   ],
+   "code": "ON-RED-002",
+   "price": {
+    "kg": 12.0,
+    "g": 12,
+    "basis": "EST",
+    "note": "",
+    "each": 0.14,
+    "per1000": 144.0,
+    "sackKg": 1,
+    "sackPrice": 12.0
+   }
   },
   {
    "id": "banana-shallot",
@@ -554,7 +663,16 @@ window.EO = {
      "status": "bot-blocked",
      "ships": "UK (sets)"
     }
-   ]
+   ],
+   "code": "ON-PNK-002",
+   "price": {
+    "kg": 24.0,
+    "g": 60,
+    "basis": "EST",
+    "note": "",
+    "each": 1.44,
+    "per1000": 1440.0
+   }
   },
   {
    "id": "pickling",
@@ -607,7 +725,18 @@ window.EO = {
     "Pickling onions are brown onions planted closely together; crowding keeps the bulbs small.",
     "Blanching them for a minute in boiling water makes the skins slip off. Every Onion has been asked to pass this on.",
     "Supermarket ranging is seasonal. Late spring to early autumn is the most reliable window."
-   ]
+   ],
+   "code": "ON-BRN-002",
+   "price": {
+    "kg": 3.98,
+    "g": 25,
+    "basis": "OBS",
+    "note": "",
+    "each": 0.1,
+    "per1000": 99.5,
+    "sackKg": 5,
+    "sackPrice": 19.5
+   }
   },
   {
    "id": "pearl",
@@ -664,7 +793,16 @@ window.EO = {
     "A martini garnished with a pickled pearl onion instead of an olive is called a Gibson.",
     "Some botanists reserve the name ‘pearl onion’ for Allium ampeloprasum var. sectivum, which is technically a leek. Every Onion lists only the Allium cepa kind and regrets the confusion.",
     "Italian ‘Early Barletta’ and ‘Paris Silverskin’ are the classic seed varieties for growing pearl onions."
-   ]
+   ],
+   "code": "ON-WHT-003",
+   "price": {
+    "kg": 14.0,
+    "g": 10,
+    "basis": "EST",
+    "note": "",
+    "each": 0.14,
+    "per1000": 140.0
+   }
   },
   {
    "id": "welsh-onion",
@@ -738,7 +876,16 @@ window.EO = {
     "‘Welsh’ here comes from an old Germanic word meaning ‘foreign’, the same root as ‘walnut’. The onion arrived in Europe from Asia, not from Wales.",
     "Left in the ground it forms a clump that can be divided and replanted indefinitely.",
     "Varieties such as ‘Ishikura’ are grown for extra-long white shanks, blanched by hilling soil up around the stems."
-   ]
+   ],
+   "code": "ON-GRN-002",
+   "price": {
+    "kg": 16.0,
+    "g": 30,
+    "basis": "EST",
+    "note": "per stalk",
+    "each": 0.48,
+    "per1000": 480.0
+   }
   },
   {
    "id": "egyptian-walking",
@@ -794,7 +941,16 @@ window.EO = {
     "It is not known to be from Egypt. The name's origin is unclear.",
     "Each season a plant can ‘walk’ roughly the height of its own stalk. Every Onion does not track individual onions.",
     "Sold in Australia as bulbs by specialist nurseries, typically in autumn."
-   ]
+   ],
+   "code": "ON-PNK-003",
+   "price": {
+    "kg": 75.0,
+    "g": 8,
+    "basis": "EST",
+    "note": "per bulbil; planting stock",
+    "each": 0.6,
+    "per1000": 600.0
+   }
   },
   {
    "id": "potato-onion",
@@ -847,7 +1003,16 @@ window.EO = {
     "Plant one bulb in autumn; dig up a cluster of several in early summer; keep the best to plant again.",
     "Because it is grown from bulbs, a good strain is passed down unchanged. Some Australian strains have been replanted for generations.",
     "Every Onion was unable to find it in any Australian shop, and was able to find it at several Australian seed savers."
-   ]
+   ],
+   "code": "ON-BRN-003",
+   "price": {
+    "kg": 40.0,
+    "g": 60,
+    "basis": "EST",
+    "note": "planting stock",
+    "each": 2.4,
+    "per1000": 2400.0
+   }
   },
   {
    "id": "cipollini",
@@ -918,7 +1083,16 @@ window.EO = {
      "kind": "info",
      "status": "200"
     }
-   ]
+   ],
+   "code": "ON-GLD-001",
+   "price": {
+    "kg": 14.0,
+    "g": 45,
+    "basis": "EST",
+    "note": "",
+    "each": 0.63,
+    "per1000": 630.0
+   }
   },
   {
    "id": "red-of-florence",
@@ -971,7 +1145,16 @@ window.EO = {
     "Its shape makes for even rings of a uniform size. Every Onion notes this for customers making onion rings.",
     "It can also be pulled early and used like a red spring onion.",
     "It does not store for long. It is intended to be eaten in summer."
-   ]
+   ],
+   "code": "ON-RED-003",
+   "price": {
+    "kg": 9.0,
+    "g": 120,
+    "basis": "EST",
+    "note": "",
+    "each": 1.08,
+    "per1000": 1080.0
+   }
   },
   {
    "id": "australian-brown",
@@ -1019,7 +1202,16 @@ window.EO = {
     "An intermediate-day variety, suited to most of temperate Australia.",
     "Its dense, dry flesh is why it keeps so well: stored cool and dry, bulbs can last most of a year.",
     "Every Onion rates it Severe on the Lacrimal Index. This has been independently confirmed by everyone who has cut one."
-   ]
+   ],
+   "code": "ON-BRN-004",
+   "price": {
+    "kg": 6.0,
+    "g": 150,
+    "basis": "EST",
+    "note": "",
+    "each": 0.9,
+    "per1000": 900.0
+   }
   },
   {
    "id": "hunter-river",
@@ -1074,7 +1266,16 @@ window.EO = {
     "The brown strain is sold by Mr Fothergill's, Garden Express and Bunnings; the white strain by Yates.",
     "An early variety: sown in autumn, lifted from late spring.",
     "Every Onion lists both strains as a single Codex entry, following a lengthy internal review."
-   ]
+   ],
+   "code": "ON-BRN-005",
+   "price": {
+    "kg": 5.0,
+    "g": 180,
+    "basis": "EST",
+    "note": "",
+    "each": 0.9,
+    "per1000": 900.0
+   }
   },
   {
    "id": "creamgold",
@@ -1123,7 +1324,16 @@ window.EO = {
     "Bred for the southern half of Australia, where days are long in summer.",
     "Lift when the tops have fallen over and begun to dry; cure in the sun before storing.",
     "Every Onion files it under Heirloom & garden varieties. It is not sold in shops under this name."
-   ]
+   ],
+   "code": "ON-GLD-002",
+   "price": {
+    "kg": 5.0,
+    "g": 160,
+    "basis": "EST",
+    "note": "",
+    "each": 0.8,
+    "per1000": 800.0
+   }
   },
   {
    "id": "white-lisbon",
@@ -1178,7 +1388,16 @@ window.EO = {
     "Ready eight to ten weeks after sowing.",
     "Sow a little every few weeks for a continuous supply. Every Onion calls this ‘onion scheduling’.",
     "If left in the ground it will eventually form a small white bulb."
-   ]
+   ],
+   "code": "ON-GRN-003",
+   "price": {
+    "kg": 25.0,
+    "g": 12,
+    "basis": "EST",
+    "note": "per stalk",
+    "each": 0.3,
+    "per1000": 300.0
+   }
   },
   {
    "id": "early-barletta",
@@ -1230,7 +1449,16 @@ window.EO = {
     "Named after Barletta, a port town in Apulia on Italy's Adriatic coast.",
     "Sown thickly, it produces uniformly small bulbs without thinning.",
     "Every Onion was unable to find it pickled under its own name."
-   ]
+   ],
+   "code": "ON-WHT-004",
+   "price": {
+    "kg": 14.0,
+    "g": 12,
+    "basis": "EST",
+    "note": "",
+    "each": 0.17,
+    "per1000": 168.0
+   }
   },
   {
    "id": "ailsa-craig",
@@ -1294,7 +1522,16 @@ window.EO = {
      "status": "bot-blocked",
      "ships": "US"
     }
-   ]
+   ],
+   "code": "ON-GLD-003",
+   "price": {
+    "kg": 8.0,
+    "g": 450,
+    "basis": "EST",
+    "note": "",
+    "each": 3.6,
+    "per1000": 3600.0
+   }
   },
   {
    "id": "stuttgarter",
@@ -1376,7 +1613,16 @@ window.EO = {
      "status": "200",
      "ships": "Switzerland"
     }
-   ]
+   ],
+   "code": "ON-GLD-004",
+   "price": {
+    "kg": 7.0,
+    "g": 110,
+    "basis": "EST",
+    "note": "",
+    "each": 0.77,
+    "per1000": 770.0
+   }
   },
   {
    "id": "calcot",
@@ -1470,7 +1716,16 @@ window.EO = {
      "status": "bot-blocked",
      "ships": "Spain"
     }
-   ]
+   ],
+   "code": "ON-WHT-005",
+   "price": {
+    "kg": 16.0,
+    "g": 70,
+    "basis": "EST",
+    "note": "per shoot",
+    "each": 1.12,
+    "per1000": 1120.0
+   }
   },
   {
    "id": "gladalan",
@@ -1523,7 +1778,16 @@ window.EO = {
     "Sold in both brown and white forms; the Codex lists them together.",
     "An intermediate-day onion, suited to much of temperate Australia.",
     "Every Onion found it offered by more Australian seed merchants than almost any other named brown onion."
-   ]
+   ],
+   "code": "ON-BRN-006",
+   "price": {
+    "kg": 5.0,
+    "g": 170,
+    "basis": "EST",
+    "note": "",
+    "each": 0.85,
+    "per1000": 850.0
+   }
   },
   {
    "id": "odourless",
@@ -1577,7 +1841,16 @@ window.EO = {
     "Available as seed in red, brown and white strains.",
     "Mild enough for salads, which is the point.",
     "Every Onion notes that all onions have some odour, including this one."
-   ]
+   ],
+   "code": "ON-RED-004",
+   "price": {
+    "kg": 6.0,
+    "g": 200,
+    "basis": "EST",
+    "note": "",
+    "each": 1.2,
+    "per1000": 1200.0
+   }
   },
   {
    "id": "vidalia",
@@ -1665,7 +1938,16 @@ window.EO = {
      "kind": "festival",
      "status": "200"
     }
-   ]
+   ],
+   "code": "ON-GLD-005",
+   "price": {
+    "kg": 6.6,
+    "g": 280,
+    "basis": "ORIG",
+    "note": "",
+    "each": 1.85,
+    "per1000": 1848.0
+   }
   },
   {
    "id": "walla-walla",
@@ -1753,7 +2035,16 @@ window.EO = {
      "kind": "festival",
      "status": "200"
     }
-   ]
+   ],
+   "code": "ON-GLD-006",
+   "price": {
+    "kg": 6.6,
+    "g": 350,
+    "basis": "ORIG",
+    "note": "",
+    "each": 2.31,
+    "per1000": 2310.0
+   }
   },
   {
    "id": "maui",
@@ -1839,7 +2130,16 @@ window.EO = {
      "kind": "info",
      "status": "200"
     }
-   ]
+   ],
+   "code": "ON-GLD-007",
+   "price": {
+    "kg": 9.9,
+    "g": 250,
+    "basis": "ORIG",
+    "note": "",
+    "each": 2.48,
+    "per1000": 2475.0
+   }
   },
   {
    "id": "texas-1015",
@@ -1923,7 +2223,16 @@ window.EO = {
      "kind": "info",
      "status": "200"
     }
-   ]
+   ],
+   "code": "ON-GLD-008",
+   "price": {
+    "kg": 4.5,
+    "g": 300,
+    "basis": "ORIG",
+    "note": "",
+    "each": 1.35,
+    "per1000": 1350.0
+   }
   },
   {
    "id": "bermuda",
@@ -1992,7 +2301,16 @@ window.EO = {
      "kind": "info",
      "status": "200"
     }
-   ]
+   ],
+   "code": "ON-WHT-006",
+   "price": {
+    "kg": 4.5,
+    "g": 250,
+    "basis": "ORIG",
+    "note": "",
+    "each": 1.12,
+    "per1000": 1125.0
+   }
   },
   {
    "id": "tropea",
@@ -2084,7 +2402,16 @@ window.EO = {
      "kind": "info",
      "status": "200"
     }
-   ]
+   ],
+   "code": "ON-RED-005",
+   "price": {
+    "kg": 6.5,
+    "g": 130,
+    "basis": "ORIG",
+    "note": "",
+    "each": 0.84,
+    "per1000": 845.0
+   }
   },
   {
    "id": "giarratana",
@@ -2169,7 +2496,16 @@ window.EO = {
      "kind": "info",
      "status": "200"
     }
-   ]
+   ],
+   "code": "ON-WHT-007",
+   "price": {
+    "kg": 6.0,
+    "g": 600,
+    "basis": "ORIG",
+    "note": "",
+    "each": 3.6,
+    "per1000": 3600.0
+   }
   },
   {
    "id": "certaldo",
@@ -2248,7 +2584,16 @@ window.EO = {
      "kind": "info",
      "status": "200"
     }
-   ]
+   ],
+   "code": "ON-RED-006",
+   "price": {
+    "kg": 7.0,
+    "g": 150,
+    "basis": "ORIG",
+    "note": "",
+    "each": 1.05,
+    "per1000": 1050.0
+   }
   },
   {
    "id": "montoro",
@@ -2305,7 +2650,16 @@ window.EO = {
      "kind": "info",
      "status": "200"
     }
-   ]
+   ],
+   "code": "ON-PNK-004",
+   "price": {
+    "kg": 6.0,
+    "g": 150,
+    "basis": "ORIG",
+    "note": "",
+    "each": 0.9,
+    "per1000": 900.0
+   }
   },
   {
    "id": "margherita",
@@ -2368,7 +2722,16 @@ window.EO = {
      "kind": "info",
      "status": "200"
     }
-   ]
+   ],
+   "code": "ON-WHT-008",
+   "price": {
+    "kg": 5.0,
+    "g": 90,
+    "basis": "ORIG",
+    "note": "",
+    "each": 0.45,
+    "per1000": 450.0
+   }
   },
   {
    "id": "acquaviva",
@@ -2414,7 +2777,16 @@ window.EO = {
      "status": "200"
     }
    ],
-   "aka": []
+   "aka": [],
+   "code": "ON-RED-007",
+   "price": {
+    "kg": 6.0,
+    "g": 450,
+    "basis": "ORIG",
+    "note": "",
+    "each": 2.7,
+    "per1000": 2700.0
+   }
   },
   {
    "id": "cannara",
@@ -2468,7 +2840,16 @@ window.EO = {
      "status": "200"
     }
    ],
-   "aka": []
+   "aka": [],
+   "code": "ON-RED-008",
+   "price": {
+    "kg": 6.5,
+    "g": 130,
+    "basis": "ORIG",
+    "note": "",
+    "each": 0.84,
+    "per1000": 845.0
+   }
   },
   {
    "id": "roscoff",
@@ -2556,7 +2937,16 @@ window.EO = {
      "kind": "info",
      "status": "200"
     }
-   ]
+   ],
+   "code": "ON-PNK-005",
+   "price": {
+    "kg": 8.0,
+    "g": 140,
+    "basis": "ORIG",
+    "note": "",
+    "each": 1.12,
+    "per1000": 1120.0
+   }
   },
   {
    "id": "cevennes",
@@ -2647,7 +3037,16 @@ window.EO = {
      "status": "200",
      "ships": "France"
     }
-   ]
+   ],
+   "code": "ON-WHT-009",
+   "price": {
+    "kg": 9.5,
+    "g": 170,
+    "basis": "ORIG",
+    "note": "",
+    "each": 1.61,
+    "per1000": 1615.0
+   }
   },
   {
    "id": "grey-shallot",
@@ -2707,7 +3106,16 @@ window.EO = {
      "kind": "info",
      "status": "200"
     }
-   ]
+   ],
+   "code": "ON-GRY-001",
+   "price": {
+    "kg": 16.0,
+    "g": 25,
+    "basis": "ORIG",
+    "note": "",
+    "each": 0.4,
+    "per1000": 400.0
+   }
   },
   {
    "id": "fuentes",
@@ -2776,7 +3184,16 @@ window.EO = {
      "kind": "info",
      "status": "200"
     }
-   ]
+   ],
+   "code": "ON-WHT-010",
+   "price": {
+    "kg": 4.5,
+    "g": 400,
+    "basis": "ORIG",
+    "note": "",
+    "each": 1.8,
+    "per1000": 1800.0
+   }
   },
   {
    "id": "figueres",
@@ -2846,7 +3263,16 @@ window.EO = {
      "kind": "info",
      "status": "200"
     }
-   ]
+   ],
+   "code": "ON-PNK-006",
+   "price": {
+    "kg": 4.0,
+    "g": 180,
+    "basis": "ORIG",
+    "note": "",
+    "each": 0.72,
+    "per1000": 720.0
+   }
   },
   {
    "id": "zittauer",
@@ -2919,7 +3345,16 @@ window.EO = {
      "kind": "info",
      "status": "200"
     }
-   ]
+   ],
+   "code": "ON-GLD-009",
+   "price": {
+    "kg": 5.0,
+    "g": 70,
+    "basis": "ORIG",
+    "note": "",
+    "each": 0.35,
+    "per1000": 350.0
+   }
   },
   {
    "id": "kelsae",
@@ -2976,7 +3411,14 @@ window.EO = {
      "status": "200",
      "ships": "US"
     }
-   ]
+   ],
+   "code": "ON-GLD-010",
+   "price": {
+    "kg": null,
+    "g": 1500,
+    "basis": "ORIG",
+    "note": "exhibition; price on application"
+   }
   },
   {
    "id": "awaji",
@@ -3049,7 +3491,18 @@ window.EO = {
      "status": "200",
      "ships": "Japan (domestic)"
     }
-   ]
+   ],
+   "code": "ON-GLD-011",
+   "price": {
+    "kg": 6.5,
+    "g": 250,
+    "basis": "ORIG",
+    "note": "",
+    "each": 1.62,
+    "per1000": 1625.0,
+    "sackKg": 10,
+    "sackPrice": 65.0
+   }
   },
   {
    "id": "kitami",
@@ -3105,7 +3558,18 @@ window.EO = {
      "ships": "Japan (domestic)"
     }
    ],
-   "aka": []
+   "aka": [],
+   "code": "ON-GLD-012",
+   "price": {
+    "kg": 3.5,
+    "g": 220,
+    "basis": "ORIG",
+    "note": "",
+    "each": 0.77,
+    "per1000": 770.0,
+    "sackKg": 20,
+    "sackPrice": 70.0
+   }
   },
   {
    "id": "sapporoki",
@@ -3163,7 +3627,18 @@ window.EO = {
      "status": "200",
      "ships": "Japan (domestic)"
     }
-   ]
+   ],
+   "code": "ON-GLD-013",
+   "price": {
+    "kg": 5.0,
+    "g": 180,
+    "basis": "ORIG",
+    "note": "",
+    "each": 0.9,
+    "per1000": 900.0,
+    "sackKg": 5,
+    "sackPrice": 25.0
+   }
   },
   {
    "id": "senshu",
@@ -3222,7 +3697,16 @@ window.EO = {
      "status": "200"
     }
    ],
-   "aka": []
+   "aka": [],
+   "code": "ON-GLD-014",
+   "price": {
+    "kg": 6.0,
+    "g": 250,
+    "basis": "ORIG",
+    "note": "",
+    "each": 1.5,
+    "per1000": 1500.0
+   }
   },
   {
    "id": "shimonita",
@@ -3288,7 +3772,16 @@ window.EO = {
      "status": "200",
      "ships": "Japan (domestic)"
     }
-   ]
+   ],
+   "code": "ON-GRN-004",
+   "price": {
+    "kg": 18.0,
+    "g": 150,
+    "basis": "ORIG",
+    "note": "per stalk",
+    "each": 2.7,
+    "per1000": 2700.0
+   }
   },
   {
    "id": "kujo",
@@ -3344,7 +3837,16 @@ window.EO = {
      "ships": "Japan (domestic)"
     }
    ],
-   "aka": []
+   "aka": [],
+   "code": "ON-GRN-005",
+   "price": {
+    "kg": 20.0,
+    "g": 20,
+    "basis": "ORIG",
+    "note": "per stalk",
+    "each": 0.4,
+    "per1000": 400.0
+   }
   },
   {
    "id": "rakkyo",
@@ -3420,7 +3922,16 @@ window.EO = {
      "kind": "info",
      "status": "200"
     }
-   ]
+   ],
+   "code": "ON-WHT-011",
+   "price": {
+    "kg": 14.0,
+    "g": 6,
+    "basis": "ORIG",
+    "note": "",
+    "each": 0.08,
+    "per1000": 84.0
+   }
   },
   {
    "id": "muan",
@@ -3471,7 +3982,16 @@ window.EO = {
      "status": "200"
     }
    ],
-   "aka": []
+   "aka": [],
+   "code": "ON-GLD-015",
+   "price": {
+    "kg": 3.0,
+    "g": 220,
+    "basis": "ORIG",
+    "note": "",
+    "each": 0.66,
+    "per1000": 660.0
+   }
   },
   {
    "id": "nashik",
@@ -3548,7 +4068,16 @@ window.EO = {
      "kind": "info",
      "status": "200"
     }
-   ]
+   ],
+   "code": "ON-RED-009",
+   "price": {
+    "kg": 0.6,
+    "g": 100,
+    "basis": "ORIG",
+    "note": "",
+    "each": 0.06,
+    "per1000": 60.0
+   }
   },
   {
    "id": "bellary",
@@ -3607,7 +4136,16 @@ window.EO = {
      "kind": "info",
      "status": "200"
     }
-   ]
+   ],
+   "code": "ON-RED-010",
+   "price": {
+    "kg": 0.6,
+    "g": 150,
+    "basis": "ORIG",
+    "note": "",
+    "each": 0.09,
+    "per1000": 90.0
+   }
   },
   {
    "id": "bangalore-rose",
@@ -3672,7 +4210,16 @@ window.EO = {
      "kind": "info",
      "status": "200"
     }
-   ]
+   ],
+   "code": "ON-RED-011",
+   "price": {
+    "kg": 1.0,
+    "g": 18,
+    "basis": "ORIG",
+    "note": "",
+    "each": 0.02,
+    "per1000": 18.0
+   }
   },
   {
    "id": "chettikulam",
@@ -3741,7 +4288,16 @@ window.EO = {
      "kind": "info",
      "status": "200"
     }
-   ]
+   ],
+   "code": "ON-RED-012",
+   "price": {
+    "kg": 1.2,
+    "g": 12,
+    "basis": "ORIG",
+    "note": "",
+    "each": 0.01,
+    "per1000": 14.4
+   }
   },
   {
    "id": "alibag",
@@ -3786,7 +4342,16 @@ window.EO = {
      "status": "200"
     }
    ],
-   "aka": []
+   "aka": [],
+   "code": "ON-WHT-012",
+   "price": {
+    "kg": 1.5,
+    "g": 70,
+    "basis": "ORIG",
+    "note": "",
+    "each": 0.1,
+    "per1000": 105.0
+   }
   },
   {
    "id": "philippine-red",
@@ -3845,7 +4410,16 @@ window.EO = {
      "status": "200"
     }
    ],
-   "aka": []
+   "aka": [],
+   "code": "ON-RED-013",
+   "price": {
+    "kg": 4.0,
+    "g": 60,
+    "basis": "ORIG",
+    "note": "peaked near $19/kg AUD equiv. in Dec 2022",
+    "each": 0.24,
+    "per1000": 240.0
+   }
   },
   {
    "id": "egyptian",
@@ -3904,7 +4478,16 @@ window.EO = {
      "status": "200"
     }
    ],
-   "aka": []
+   "aka": [],
+   "code": "ON-GLD-016",
+   "price": {
+    "kg": 0.7,
+    "g": 150,
+    "basis": "ORIG",
+    "note": "",
+    "each": 0.1,
+    "per1000": 105.0
+   }
   },
   {
    "id": "pukekohe",
@@ -3994,7 +4577,16 @@ window.EO = {
      "kind": "info",
      "status": "200"
     }
-   ]
+   ],
+   "code": "ON-GLD-017",
+   "price": {
+    "kg": 2.5,
+    "g": 150,
+    "basis": "ORIG",
+    "note": "",
+    "each": 0.38,
+    "per1000": 375.0
+   }
   },
   {
    "id": "imperial-sweet",
@@ -4047,7 +4639,16 @@ window.EO = {
      "status": "200"
     }
    ],
-   "aka": []
+   "aka": [],
+   "code": "ON-GLD-018",
+   "price": {
+    "kg": 4.5,
+    "g": 280,
+    "basis": "ORIG",
+    "note": "",
+    "each": 1.26,
+    "per1000": 1260.0
+   }
   },
   {
    "id": "oso-sweet",
@@ -4094,7 +4695,16 @@ window.EO = {
      "status": "200"
     }
    ],
-   "aka": []
+   "aka": [],
+   "code": "ON-GLD-019",
+   "price": {
+    "kg": 5.2,
+    "g": 280,
+    "basis": "ORIG",
+    "note": "",
+    "each": 1.46,
+    "per1000": 1456.0
+   }
   },
   {
    "id": "peruvian-sweet",
@@ -4148,7 +4758,16 @@ window.EO = {
      "status": "200"
     }
    ],
-   "aka": []
+   "aka": [],
+   "code": "ON-GLD-020",
+   "price": {
+    "kg": 5.2,
+    "g": 320,
+    "basis": "ORIG",
+    "note": "",
+    "each": 1.66,
+    "per1000": 1664.0
+   }
   },
   {
    "id": "ituporanga",
@@ -4201,7 +4820,16 @@ window.EO = {
      "status": "200"
     }
    ],
-   "aka": []
+   "aka": [],
+   "code": "ON-BRN-007",
+   "price": {
+    "kg": 1.5,
+    "g": 150,
+    "basis": "ORIG",
+    "note": "",
+    "each": 0.23,
+    "per1000": 225.0
+   }
   }
  ],
  "stockists": [

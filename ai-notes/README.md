@@ -6,3 +6,4 @@ with Rob. Convention: `NN-topic-YYYY-MM-DD.md`, numbered in order; add a new dat
 significant change or decision, and keep the newest doc's "current state" accurate.
 
 1. [01-build-and-launch-2026-09-30.md](01-build-and-launch-2026-09-30.md) — the brief, the deadpan concept, data model, design direction changes, research method, deploy, gotchas
+2. [02-procurement-system-redesign-2026-09-30.md](02-procurement-system-redesign-2026-09-30.md) — redesign as a legacy onion procurement app: layout, shortcuts, variety codes, indicative pricing and its sources
