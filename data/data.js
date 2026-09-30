@@ -553,13 +553,6 @@ window.EO = {
      "kind": "buy",
      "status": "bot-blocked",
      "ships": "UK (sets)"
-    },
-    {
-     "label": "Zebrune shallot seeds (Kings Seeds)",
-     "url": "https://www.kingsseeds.com/14199-shallot-zebrune",
-     "kind": "buy",
-     "status": "bot-blocked",
-     "ships": "UK"
     }
    ]
   },
@@ -714,7 +707,9 @@ window.EO = {
     "soup"
    ],
    "match": [
-    "welsh-onion"
+    "welsh-onion",
+    "ishikura",
+    "japanese-bunching"
    ],
    "skinDesc": "White shank, blue-green leaves",
    "fleshDesc": "White",
@@ -958,7 +953,8 @@ window.EO = {
     "pickle"
    ],
    "match": [
-    "red-of-florence"
+    "red-of-florence",
+    "tropea"
    ],
    "skinDesc": "Deep red-purple",
    "fleshDesc": "White, ringed with red",
@@ -1031,31 +1027,31 @@ window.EO = {
    "short": "Hunter River",
    "bot": "Allium cepa",
    "family": "heirloom",
-   "colour": "red",
-   "skin": "#7d2a3f",
-   "flesh": "#f2e4e6",
-   "ring": "#ae6a7e",
-   "shape": "flat",
-   "size": "medium",
-   "diam": "6–9 cm",
+   "colour": "brown",
+   "skin": "#a0652e",
+   "flesh": "#f2e7d0",
+   "ring": "#d4bf98",
+   "shape": "globe",
+   "size": "large",
+   "diam": "7–10 cm",
    "pungency": 3,
-   "sweetness": 3,
+   "sweetness": 2,
    "keeping": 4,
    "season": [
+    10,
     11,
     12,
-    1,
-    2
+    1
    ],
    "origin": "Australia",
    "place": "Hunter Valley, NSW",
    "region": "aus",
    "avail": "grow",
    "uses": [
-    "raw",
+    "soup",
     "roast",
-    "grill",
-    "soup"
+    "caramelise",
+    "raw"
    ],
    "match": [
     "hunter-river-red",
@@ -1063,12 +1059,9 @@ window.EO = {
     "hunter-river-white",
     "hunter-river"
    ],
-   "skinDesc": "Red, brown or white, depending on strain",
-   "fleshDesc": "White or pink",
+   "skinDesc": "Light brown or white, depending on strain",
+   "fleshDesc": "White to cream",
    "aka": [
-    {
-     "n": "Hunter River Red"
-    },
     {
      "n": "Hunter River Brown"
     },
@@ -1076,11 +1069,11 @@ window.EO = {
      "n": "Hunter River White"
     }
    ],
-   "desc": "A family of Australian heirloom onions named for the Hunter River in New South Wales, available in red, brown and white strains. They are slightly flattened, dependable and well suited to Australian conditions. They are grown by gardeners rather than sold by grocers.",
+   "desc": "Early-season Australian garden onions named for the Hunter River in New South Wales, sold as seed in brown and white strains. They produce large globes quickly and are among the most widely stocked onion seeds in Australian garden centres. They are grown by gardeners rather than sold by grocers.",
    "facts": [
-    "All three colours are sold as seed by Australian heirloom seed companies.",
-    "The red strain is the most widely offered, and the one illustrated here.",
-    "Every Onion lists the three strains as a single Codex entry, following a lengthy internal review."
+    "The brown strain is sold by Mr Fothergill's, Garden Express and Bunnings; the white strain by Yates.",
+    "An early variety: sown in autumn, lifted from late spring.",
+    "Every Onion lists both strains as a single Codex entry, following a lengthy internal review."
    ]
   },
   {
@@ -1115,7 +1108,8 @@ window.EO = {
     "braise"
    ],
    "match": [
-    "creamgold"
+    "creamgold",
+    "cream-gold"
    ],
    "skinDesc": "Golden-brown",
    "fleshDesc": "Cream",
@@ -1218,7 +1212,8 @@ window.EO = {
     "braise"
    ],
    "match": [
-    "early-barletta"
+    "early-barletta",
+    "barletta"
    ],
    "skinDesc": "Silvery white",
    "fleshDesc": "White",
@@ -1475,6 +1470,113 @@ window.EO = {
      "status": "bot-blocked",
      "ships": "Spain"
     }
+   ]
+  },
+  {
+   "id": "gladalan",
+   "name": "Gladalan",
+   "short": "Gladalan",
+   "bot": "Allium cepa",
+   "family": "heirloom",
+   "colour": "brown",
+   "skin": "#a86f36",
+   "flesh": "#f3e9d4",
+   "ring": "#d6c3a0",
+   "shape": "globe",
+   "size": "medium",
+   "diam": "6–9 cm",
+   "pungency": 4,
+   "sweetness": 2,
+   "keeping": 4,
+   "season": [
+    11,
+    12,
+    1,
+    2
+   ],
+   "origin": "Australia",
+   "region": "aus",
+   "avail": "grow",
+   "uses": [
+    "soup",
+    "roast",
+    "caramelise",
+    "braise"
+   ],
+   "match": [
+    "gladalan",
+    "gladalan-brown",
+    "gladalan-white"
+   ],
+   "skinDesc": "Brown or white, depending on strain",
+   "fleshDesc": "Cream to white",
+   "aka": [
+    {
+     "n": "Gladalan Brown"
+    },
+    {
+     "n": "Gladalan White"
+    }
+   ],
+   "desc": "A dependable medium-to-large globe onion offered in brown and white strains by most Australian seed companies. It is productive, stores well and is widely recommended for home gardens in temperate Australia.",
+   "facts": [
+    "Sold in both brown and white forms; the Codex lists them together.",
+    "An intermediate-day onion, suited to much of temperate Australia.",
+    "Every Onion found it offered by more Australian seed merchants than almost any other named brown onion."
+   ]
+  },
+  {
+   "id": "odourless",
+   "name": "Odourless onion",
+   "short": "Odourless",
+   "bot": "Allium cepa",
+   "family": "heirloom",
+   "colour": "red",
+   "skin": "#7a2a4a",
+   "flesh": "#f4e6ec",
+   "ring": "#a95b82",
+   "shape": "globe",
+   "size": "large",
+   "diam": "7–10 cm",
+   "pungency": 2,
+   "sweetness": 3,
+   "keeping": 2,
+   "season": [
+    11,
+    12,
+    1,
+    2
+   ],
+   "origin": "Australia",
+   "region": "aus",
+   "avail": "grow",
+   "uses": [
+    "raw",
+    "grill",
+    "roast"
+   ],
+   "match": [
+    "odourless",
+    "red-odourless"
+   ],
+   "skinDesc": "Red, brown or white, depending on strain",
+   "fleshDesc": "White",
+   "aka": [
+    {
+     "n": "Red Odourless"
+    },
+    {
+     "n": "Brown Odourless"
+    },
+    {
+     "n": "White Odourless"
+    }
+   ],
+   "desc": "A group of mild garden onions sold in Australia under the name ‘Odourless’, in red, brown and white. They are notably gentle to cut and to eat raw. Every Onion has not been able to verify the absence of odour and lists the name as supplied.",
+   "facts": [
+    "Available as seed in red, brown and white strains.",
+    "Mild enough for salads, which is the point.",
+    "Every Onion notes that all onions have some odour, including this one."
    ]
   },
   {
@@ -2430,12 +2532,6 @@ window.EO = {
      "status": "200"
     },
     {
-     "label": "Confrerie",
-     "url": "https://www.oignon-de-roscoff.fr/index.php/confrerie/",
-     "kind": "official",
-     "status": "200"
-    },
-    {
      "label": "Points de vente (where to buy)",
      "url": "https://www.oignon-de-roscoff.fr/index.php/2017/05/14/vente-oignon-roscoff/",
      "kind": "buy",
@@ -3227,7 +3323,7 @@ window.EO = {
    "origin": "Japan",
    "place": "Kyoto",
    "region": "asia",
-   "avail": "overseas",
+   "avail": "grow",
    "uses": [
     "garnish",
     "soup",
@@ -3834,7 +3930,7 @@ window.EO = {
    "origin": "New Zealand",
    "place": "Pukekohe, Auckland",
    "region": "aus",
-   "avail": "overseas",
+   "avail": "grow",
    "uses": [
     "soup",
     "caramelise",
@@ -3852,6 +3948,10 @@ window.EO = {
     "Developed by a Pukekohe grower in 1923 for long-distance export.",
     "Around 90 per cent of New Zealand's onions are exported.",
     "Onions are New Zealand's largest fresh vegetable export by value."
+   ],
+   "match": [
+    "pukekohe",
+    "pukekohe-long-keeper"
    ],
    "links": [
     {
@@ -4634,7 +4734,7 @@ window.EO = {
    "vendor": "Harris Farm Markets",
    "category": "supermarket",
    "url": "https://www.harrisfarm.com.au/collections/onions-leeks-garlic",
-   "status": "200",
+   "status": "bot-blocked",
    "states": [
     "NSW",
     "QLD",
@@ -4656,7 +4756,7 @@ window.EO = {
    "vendor": "Harris Farm Markets",
    "category": "supermarket",
    "url": "https://www.harrisfarm.com.au/products/onion-brown-br-each-2411",
-   "status": "bot-blocked",
+   "status": "200",
    "states": [
     "NSW",
     "QLD",
@@ -4688,7 +4788,7 @@ window.EO = {
    "vendor": "Harris Farm Markets",
    "category": "supermarket",
    "url": "https://www.harrisfarm.com.au/products/onion-brown-sml-bag-24122",
-   "status": "200",
+   "status": "bot-blocked",
    "states": [
     "NSW",
     "QLD",
@@ -4704,7 +4804,7 @@ window.EO = {
    "vendor": "Harris Farm Markets",
    "category": "supermarket",
    "url": "https://www.harrisfarm.com.au/products/onion-brown-organic-72412",
-   "status": "200",
+   "status": "bot-blocked",
    "states": [
     "NSW",
     "QLD",
@@ -5028,7 +5128,7 @@ window.EO = {
    "vendor": "Fruitezy",
    "category": "online-grocer",
    "url": "https://fruitezy.com.au/products/onions-brown-1-5-kg-pack",
-   "status": "200",
+   "status": "bot-blocked",
    "states": [
     "NSW"
    ],
@@ -5056,7 +5156,7 @@ window.EO = {
    "vendor": "Fruitezy",
    "category": "online-grocer",
    "url": "https://fruitezy.com.au/collections/asian-vegetable",
-   "status": "200",
+   "status": "bot-blocked",
    "states": [
     "NSW"
    ],
@@ -5087,7 +5187,7 @@ window.EO = {
    "vendor": "Lady Providore",
    "category": "online-grocer",
    "url": "https://www.ladyprovidore.com.au/products/onions-sliced-5kg",
-   "status": "bot-blocked",
+   "status": "200",
    "states": [
     "NSW"
    ],
@@ -5396,7 +5496,7 @@ window.EO = {
    "vendor": "The Simple Market",
    "category": "online-grocer",
    "url": "https://www.thesimplemarket.com.au/pages/organic-fresh-produce-adelaide",
-   "status": "bot-blocked",
+   "status": "200",
    "states": [
     "SA"
    ],
@@ -5410,7 +5510,7 @@ window.EO = {
    "vendor": "Monika's Organics",
    "category": "online-grocer",
    "url": "https://monikasorganics.com.au/pages/organic-fruit-and-veg-delivery-adelaide",
-   "status": "bot-blocked",
+   "status": "200",
    "states": [
     "SA"
    ],
@@ -5485,7 +5585,7 @@ window.EO = {
    "vendor": "Alpha Fresh",
    "category": "online-grocer",
    "url": "https://shop.alphafresh.com.au/",
-   "status": "bot-blocked",
+   "status": "200",
    "states": [
     "NSW",
     "ACT"
@@ -5502,7 +5602,7 @@ window.EO = {
    "vendor": "Harris Farm Markets",
    "category": "online-grocer",
    "url": "https://www.harrisfarm.com.au/pages/delivering-daily-to-canberra",
-   "status": "bot-blocked",
+   "status": "200",
    "states": [
     "ACT"
    ],
@@ -5942,7 +6042,7 @@ window.EO = {
    "vendor": "KMALL09",
    "category": "asian-grocer",
    "url": "https://kmall09.com.au/en",
-   "status": "bot-blocked",
+   "status": "200",
    "states": [
     "NSW"
    ],
@@ -5956,7 +6056,7 @@ window.EO = {
    "vendor": "Jun Direct",
    "category": "asian-grocer",
    "url": "https://www.jundirect.com.au/",
-   "status": "bot-blocked",
+   "status": "200",
    "states": [
     "National"
    ],
@@ -5970,7 +6070,7 @@ window.EO = {
    "vendor": "Tokyo Mart",
    "category": "asian-grocer",
    "url": "https://tokyomart.com.au/",
-   "status": "bot-blocked",
+   "status": "200",
    "states": [
     "NSW"
    ],
@@ -6012,7 +6112,7 @@ window.EO = {
    "vendor": "Vel Spices",
    "category": "indian-grocer",
    "url": "https://velspices.com.au/collections/fresh-produce",
-   "status": "bot-blocked",
+   "status": "200",
    "states": [
     "National"
    ],
@@ -6041,7 +6141,7 @@ window.EO = {
    "vendor": "Tales of India",
    "category": "indian-grocer",
    "url": "https://talesofindia.com.au/",
-   "status": "bot-blocked",
+   "status": "200",
    "states": [
     "VIC"
    ],
@@ -6199,20 +6299,6 @@ window.EO = {
    "blurb": "Large bag of brown onions."
   },
   {
-   "name": "Foodlum — Organic Onions Brown 20kg",
-   "vendor": "Foodlum",
-   "category": "wholesale",
-   "url": "https://www.foodlum.com.au/products/organic-onions-brown-20kg-1",
-   "status": "bot-blocked",
-   "states": [
-    "NSW"
-   ],
-   "onions": [
-    "organic-brown"
-   ],
-   "blurb": "20 kg organic brown onions."
-  },
-  {
    "name": "Joy Whole Foods — Organic Brown Onions",
    "vendor": "Joy Whole Foods",
    "category": "online-grocer",
@@ -6239,10 +6325,3628 @@ window.EO = {
     "brown"
    ],
    "blurb": "5 kg bulk brown onions."
+  },
+  {
+   "name": "Umall — Spring onions (scallions) collection",
+   "vendor": "Umall",
+   "category": "asian-grocer",
+   "url": "https://www.umall.com.au/collections/scallion-ginger-garlic/spring-onions",
+   "status": "bot-blocked",
+   "states": [
+    "NSW",
+    "ACT"
+   ],
+   "onions": [
+    "spring-onion"
+   ],
+   "blurb": "Sydney online Asian supermarket collection of spring onion bunches, with delivery to Sydney Metro, Wollongong and Canberra."
+  },
+  {
+   "name": "Umall — Green shallots bunch (spring onion)",
+   "vendor": "Umall",
+   "category": "asian-grocer",
+   "url": "https://www.umall.com.au/products/fresh-bundle-of-spring-onions",
+   "status": "bot-blocked",
+   "states": [
+    "NSW",
+    "ACT"
+   ],
+   "onions": [
+    "spring-onion"
+   ],
+   "blurb": "A bunch of spring onions sold as green shallots, with same-day or next-day delivery in Sydney."
+  },
+  {
+   "name": "Umall — Fresh green onions (scallions), 1 bundle",
+   "vendor": "Umall",
+   "category": "asian-grocer",
+   "url": "https://www.umall.com.au/products/fresh-small-green-onions-1-bundle",
+   "status": "bot-blocked",
+   "states": [
+    "NSW",
+    "ACT"
+   ],
+   "onions": [
+    "spring-onion"
+   ],
+   "blurb": "Single-bundle listing for small green onions from a Sydney Asian grocery delivery service."
+  },
+  {
+   "name": "Umall — Fresh vegetables collection",
+   "vendor": "Umall",
+   "category": "asian-grocer",
+   "url": "https://www.umall.com.au/collections/vegetables",
+   "status": "bot-blocked",
+   "states": [
+    "NSW",
+    "ACT"
+   ],
+   "onions": [
+    "spring-onion",
+    "asian-red-shallot"
+   ],
+   "blurb": "Umall's fresh vegetable category, which carries spring onions and shallots alongside Asian greens."
+  },
+  {
+   "name": "Asian Grocer Online — Scallion, ginger and garlic",
+   "vendor": "Asian Grocer Online (Umall)",
+   "category": "asian-grocer",
+   "url": "https://www.asiangroceronline.com.au/collections/scallion-ginger-garlic",
+   "status": "bot-blocked",
+   "states": [
+    "NSW",
+    "ACT"
+   ],
+   "onions": [
+    "spring-onion",
+    "asian-red-shallot"
+   ],
+   "blurb": "Aromatics collection covering scallions and shallots on Umall's alternate storefront."
+  },
+  {
+   "name": "Asian Pantry — Online Asian grocery",
+   "vendor": "Asian Pantry",
+   "category": "asian-grocer",
+   "url": "https://asianpantry.com.au/",
+   "status": "200",
+   "states": [
+    "Online"
+   ],
+   "onions": [
+    "spring-onion"
+   ],
+   "blurb": "Melbourne-based online Asian grocer with over 3,000 products, delivering Australia-wide."
+  },
+  {
+   "name": "DeliverFresh — Asian vegetables",
+   "vendor": "DeliverFresh",
+   "category": "asian-grocer",
+   "url": "https://www.deliverfresh.au/collections/asian-vegetables",
+   "status": "bot-blocked",
+   "states": [
+    "VIC"
+   ],
+   "onions": [
+    "spring-onion",
+    "asian-red-shallot"
+   ],
+   "blurb": "Asian vegetable category from a Melbourne and Geelong fresh produce delivery service."
+  },
+  {
+   "name": "DeliverFresh — Fresh vegetables",
+   "vendor": "DeliverFresh",
+   "category": "online-grocer",
+   "url": "https://www.deliverfresh.au/collections/fresh-vegetables",
+   "status": "bot-blocked",
+   "states": [
+    "VIC"
+   ],
+   "onions": [
+    "brown",
+    "red",
+    "spring-onion"
+   ],
+   "blurb": "Fresh vegetable category with onions, delivered around Melbourne and Geelong."
+  },
+  {
+   "name": "DeliverFresh — Banana shallots",
+   "vendor": "DeliverFresh",
+   "category": "online-grocer",
+   "url": "https://www.deliverfresh.au/products/banana-shallot",
+   "status": "bot-blocked",
+   "states": [
+    "VIC"
+   ],
+   "onions": [
+    "banana-shallot"
+   ],
+   "blurb": "Banana shallots available for next-day delivery across Melbourne."
+  },
+  {
+   "name": "The Farm Shop — Wholesale spring onions box",
+   "vendor": "The Farm Shop",
+   "category": "wholesale",
+   "url": "https://thefarmshop.au/products/wholesale-spring-onions-shallots-box",
+   "status": "bot-blocked",
+   "states": [
+    "QLD"
+   ],
+   "onions": [
+    "spring-onion"
+   ],
+   "blurb": "Box of spring onions from a Toowoomba farm shop that delivers to Brisbane, the Gold Coast and the Sunshine Coast."
+  },
+  {
+   "name": "Vel Spices — Red onion 10 kg",
+   "vendor": "Vel Spices",
+   "category": "indian-grocer",
+   "url": "https://velspices.com.au/products/onion-red-1okg",
+   "status": "bot-blocked",
+   "states": [
+    "Online"
+   ],
+   "onions": [
+    "red"
+   ],
+   "blurb": "A 10 kg bulk bag of red onions from an Indian and Sri Lankan online grocer."
+  },
+  {
+   "name": "Tales of India — Red onion, fresh",
+   "vendor": "Tales of India",
+   "category": "indian-grocer",
+   "url": "https://talesofindia.com.au/products/red-onion-fresh",
+   "status": "bot-blocked",
+   "states": [
+    "Online",
+    "VIC"
+   ],
+   "onions": [
+    "red"
+   ],
+   "blurb": "Fresh red onions from a Melbourne Indian grocer offering same-day metro delivery and Australia-wide postage."
+  },
+  {
+   "name": "Harris Farm — Organic shallots (bunch)",
+   "vendor": "Harris Farm Markets",
+   "category": "supermarket",
+   "url": "https://www.harrisfarm.com.au/products/shallot-organic-72772",
+   "status": "bot-blocked",
+   "states": [
+    "NSW",
+    "QLD",
+    "ACT"
+   ],
+   "onions": [
+    "spring-onion"
+   ],
+   "blurb": "Organic spring onions, sold under their New South Wales name."
+  },
+  {
+   "name": "Harris Farm — Brown onions 10 kg bag",
+   "vendor": "Harris Farm Markets",
+   "category": "supermarket",
+   "url": "https://www.harrisfarm.com.au/products/onions-brown-10kg-bag-24113",
+   "status": "bot-blocked",
+   "states": [
+    "NSW",
+    "QLD",
+    "ACT"
+   ],
+   "onions": [
+    "brown"
+   ],
+   "blurb": "A 10 kg bag of brown onions listed for delivery across NSW, QLD and ACT."
+  },
+  {
+   "name": "Harris Farm — Red pickling onions",
+   "vendor": "Harris Farm Markets",
+   "category": "supermarket",
+   "url": "https://www.harrisfarm.com.au/products/onions-red-pickling-24322",
+   "status": "bot-blocked",
+   "states": [
+    "NSW",
+    "QLD",
+    "ACT"
+   ],
+   "onions": [
+    "pickling",
+    "pearl",
+    "red"
+   ],
+   "blurb": "Small red pickling onions from South Australia, sold online with daily delivery."
+  },
+  {
+   "name": "Harris Farm — Red Spanish onion, each",
+   "vendor": "Harris Farm Markets",
+   "category": "supermarket",
+   "url": "https://www.harrisfarm.com.au/products/onion-spanish-2441",
+   "status": "200",
+   "states": [
+    "NSW",
+    "QLD",
+    "ACT"
+   ],
+   "onions": [
+    "red"
+   ],
+   "blurb": "Single red Spanish onion, South Australian grown, available for online delivery."
+  },
+  {
+   "name": "Harris Farm — Red Spanish onions 1 kg net",
+   "vendor": "Harris Farm Markets",
+   "category": "supermarket",
+   "url": "https://www.harrisfarm.com.au/products/onion-spanish-nets-2442",
+   "status": "bot-blocked",
+   "states": [
+    "NSW",
+    "QLD",
+    "ACT"
+   ],
+   "onions": [
+    "red"
+   ],
+   "blurb": "A 1 kg net of red Spanish onions for online delivery."
+  },
+  {
+   "name": "Harris Farm — Eschalots",
+   "vendor": "Harris Farm Markets",
+   "category": "supermarket",
+   "url": "https://www.harrisfarm.com.au/products/eschallots-kg-3341",
+   "status": "bot-blocked",
+   "states": [
+    "NSW",
+    "QLD",
+    "ACT"
+   ],
+   "onions": [
+    "eschalot"
+   ],
+   "blurb": "Australian field-grown eschalots sold online with daily delivery."
+  },
+  {
+   "name": "Harris Farm — Spring onions bunch",
+   "vendor": "Harris Farm Markets",
+   "category": "supermarket",
+   "url": "https://www.harrisfarm.com.au/products/onion-spring-each-2452",
+   "status": "bot-blocked",
+   "states": [
+    "NSW",
+    "QLD",
+    "ACT"
+   ],
+   "onions": [
+    "spring-onion"
+   ],
+   "blurb": "South Australian spring onion bunch available online."
+  },
+  {
+   "name": "Harris Farm — White onions",
+   "vendor": "Harris Farm Markets",
+   "category": "supermarket",
+   "url": "https://www.harrisfarm.com.au/products/onion-white-kg-2421",
+   "status": "bot-blocked",
+   "states": [
+    "NSW",
+    "QLD",
+    "ACT"
+   ],
+   "onions": [
+    "white"
+   ],
+   "blurb": "White onions sold by the kilo for delivery in NSW, QLD and ACT."
+  },
+  {
+   "name": "Harris Farm — Canberra grocery delivery",
+   "vendor": "Harris Farm Markets",
+   "category": "supermarket",
+   "url": "https://www.harrisfarm.com.au/pages/canberra-grocery-delivery",
+   "status": "200",
+   "states": [
+    "ACT"
+   ],
+   "onions": [
+    "brown",
+    "red",
+    "spring-onion",
+    "eschalot"
+   ],
+   "blurb": "Delivery information page for Canberra, leading to the onions, leeks and garlic category."
+  },
+  {
+   "name": "Harris Farm — Central Coast grocery delivery",
+   "vendor": "Harris Farm Markets",
+   "category": "supermarket",
+   "url": "https://www.harrisfarm.com.au/pages/delivering-goodness-to-central-coast",
+   "status": "200",
+   "states": [
+    "NSW"
+   ],
+   "onions": [
+    "brown",
+    "red",
+    "spring-onion"
+   ],
+   "blurb": "Central Coast delivery page for Harris Farm online, which includes the onions, leeks and garlic category."
+  },
+  {
+   "name": "Marino Bros — Brown onions 10 kg bag",
+   "vendor": "Marino Bros",
+   "category": "greengrocer",
+   "url": "https://marinobros.myfoodlink.com/lines/onions-brown-10kg-bag",
+   "status": "200",
+   "states": [
+    "VIC"
+   ],
+   "onions": [
+    "brown"
+   ],
+   "blurb": "West Melbourne fruit and vegetable merchant selling a 10 kg bag of brown onions online."
+  },
+  {
+   "name": "Broomes Fruit & Vegetable — Brown onions 10 kg",
+   "vendor": "Broomes Fruit & Vegetable",
+   "category": "greengrocer",
+   "url": "https://broomes.com.au/lines/the-zinger-83",
+   "status": "200",
+   "states": [
+    "NSW"
+   ],
+   "onions": [
+    "brown"
+   ],
+   "blurb": "A 10 kg bag of brown onions from a fruit and vegetable seller with online ordering."
+  },
+  {
+   "name": "Lovin' It Fresh — Onions category",
+   "vendor": "Lovin' It Fresh",
+   "category": "greengrocer",
+   "url": "https://lovinitfresh.com.au/category/onions",
+   "status": "200",
+   "states": [
+    "SA"
+   ],
+   "onions": [
+    "brown",
+    "red"
+   ],
+   "blurb": "Onion category from a South Australian fresh produce shop with online ordering and in-store pickup."
+  },
+  {
+   "name": "Costco Australia — Fresh vegetables (business delivery)",
+   "vendor": "Costco Australia",
+   "category": "wholesale",
+   "url": "https://www.costco.com.au/Business-Delivery/Fruit-Vegetables/Vegetables/c/cos_30.5.2",
+   "status": "200",
+   "states": [
+    "National"
+   ],
+   "onions": [
+    "brown",
+    "red",
+    "spring-onion"
+   ],
+   "blurb": "Costco's fresh vegetable category listing onion bags and spring onion bunches."
+  },
+  {
+   "name": "Fresh Fruit Fast — Online fruit and veg shop",
+   "vendor": "Fresh Fruit Fast",
+   "category": "online-grocer",
+   "url": "https://www.freshfruitfast.com.au/",
+   "status": "200",
+   "states": [
+    "QLD"
+   ],
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Sunshine Coast and North Brisbane online fruit and veg shop with delivery."
+  },
+  {
+   "name": "Fresh Fruit Fast — Organic small pickling onions 10 kg",
+   "vendor": "Fresh Fruit Fast",
+   "category": "online-grocer",
+   "url": "https://www.freshfruitfast.com.au/shop/all-products/onions-small-pickling-organic-bulk-10kg/",
+   "status": "200",
+   "states": [
+    "QLD"
+   ],
+   "onions": [
+    "pickling",
+    "pearl"
+   ],
+   "blurb": "A 10 kg bulk box of small organic pickling onions."
+  },
+  {
+   "name": "Fenwick's Fruit Emporium — Online shop",
+   "vendor": "Fenwick's Fruit Emporium",
+   "category": "greengrocer",
+   "url": "https://fenwicksfruit.com.au/",
+   "status": "200",
+   "states": [
+    "QLD"
+   ],
+   "onions": [
+    "brown",
+    "red"
+   ],
+   "blurb": "Sunshine Coast greengrocer with online shopping, local delivery and pickup."
+  },
+  {
+   "name": "Funky Food — Rescued fruit and veg boxes",
+   "vendor": "Funky Food",
+   "category": "online-grocer",
+   "url": "https://funkyfood.com.au/",
+   "status": "200",
+   "states": [
+    "NSW",
+    "VIC",
+    "QLD",
+    "ACT"
+   ],
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Rescued-produce boxes delivered across south-east Queensland, NSW, ACT and Victoria, including brown onions."
+  },
+  {
+   "name": "Wray Organic — Online delivery",
+   "vendor": "Wray Organic",
+   "category": "online-grocer",
+   "url": "https://www.wrayorganiconline.com.au/",
+   "status": "200",
+   "states": [
+    "QLD"
+   ],
+   "onions": [
+    "organic-brown",
+    "organic-red"
+   ],
+   "blurb": "Organic fruit and veg delivery across Brisbane, the Gold Coast, Sunshine Coast and Toowoomba."
+  },
+  {
+   "name": "Fruit n Vegies R Us — Seasonal boxes",
+   "vendor": "Fruit n Vegies R Us",
+   "category": "greengrocer",
+   "url": "https://fruitnvegiesrus.com.au/",
+   "status": "200",
+   "states": [
+    "WA"
+   ],
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Perth family-run delivery of seasonal fruit and veg boxes that include onions."
+  },
+  {
+   "name": "Food For Change — Food box subscription",
+   "vendor": "Food For Change",
+   "category": "online-grocer",
+   "url": "https://foodforchange.org.au/food-box-subscription/",
+   "status": "200",
+   "states": [
+    "ACT"
+   ],
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Canberra fruit and veg box subscription with onions in the standard box."
+  },
+  {
+   "name": "Fresh To Door — Canberra produce",
+   "vendor": "Fresh To Door",
+   "category": "greengrocer",
+   "url": "https://www.freshtodoor.com.au/produce",
+   "status": "200",
+   "states": [
+    "ACT"
+   ],
+   "onions": [
+    "brown",
+    "red",
+    "spring-onion"
+   ],
+   "blurb": "Canberra online produce list with onions, including a 10 kg brown onion bag."
+  },
+  {
+   "name": "Fresh To Door — Fruit and vegetables in Canberra",
+   "vendor": "Fresh To Door",
+   "category": "greengrocer",
+   "url": "https://www.freshtodoor.com.au/locations/fruits-vegetables-canberra",
+   "status": "200",
+   "states": [
+    "ACT"
+   ],
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Canberra fruit and veg delivery page listing a 10 kg bag of brown onions."
+  },
+  {
+   "name": "Fresh Connection — Groceries online, Melbourne",
+   "vendor": "Fresh Connection",
+   "category": "greengrocer",
+   "url": "https://www.freshconnection.com.au/pages/groceries-online-fruit-veg-delivery-melbourne",
+   "status": "200",
+   "states": [
+    "VIC"
+   ],
+   "onions": [
+    "brown",
+    "red"
+   ],
+   "blurb": "Melbourne online greengrocer stocking potatoes, onions, pumpkins and garlic."
+  },
+  {
+   "name": "Fresh Connection — Cocktail/pickling onions 300 g",
+   "vendor": "Fresh Connection",
+   "category": "greengrocer",
+   "url": "https://www.freshconnection.com.au/products/onions-cocktail-pickling-300g",
+   "status": "bot-blocked",
+   "states": [
+    "VIC"
+   ],
+   "onions": [
+    "pickling",
+    "pearl"
+   ],
+   "blurb": "A 300 g pack of small cocktail or pickling onions."
+  },
+  {
+   "name": "Ormond Fresh Produce — Melbourne delivery",
+   "vendor": "Ormond Fresh Produce",
+   "category": "greengrocer",
+   "url": "https://ormondfresh.com.au/",
+   "status": "200",
+   "states": [
+    "VIC"
+   ],
+   "onions": [
+    "brown",
+    "red"
+   ],
+   "blurb": "Melbourne fruit and vegetable delivery with same-day and next-day options."
+  },
+  {
+   "name": "Fruitastic — Vegetables, including onions",
+   "vendor": "Fruitastic",
+   "category": "online-grocer",
+   "url": "https://www.fruitastic.com.au/product/index/5",
+   "status": "200",
+   "states": [
+    "VIC"
+   ],
+   "onions": [
+    "brown",
+    "red"
+   ],
+   "blurb": "Vegetable range with brown onions by the bag or kilo and Spanish onions, delivered around Melbourne and Geelong."
+  },
+  {
+   "name": "Fruit Brothers — Fresh fruit and veg delivery",
+   "vendor": "Fruit Brothers",
+   "category": "online-grocer",
+   "url": "https://fruitbrothers.com.au/",
+   "status": "200",
+   "states": [
+    "NSW"
+   ],
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Newcastle, Maitland and Hunter delivery service selling 5 kg onion bags."
+  },
+  {
+   "name": "Dimples — Farm fresh fruit and veg delivery",
+   "vendor": "Dimples",
+   "category": "online-grocer",
+   "url": "https://www.dimples.au/",
+   "status": "200",
+   "states": [
+    "NSW",
+    "ACT"
+   ],
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Farm-fresh produce delivery across Sydney, Wollongong, Newcastle, Central Coast and Canberra."
+  },
+  {
+   "name": "Hill Street Grocer Devonport — Fresh produce",
+   "vendor": "Hill Street Grocer",
+   "category": "greengrocer",
+   "url": "https://devonport.hillstreetgrocer.com/category/fresh-produce",
+   "status": "200",
+   "states": [
+    "TAS"
+   ],
+   "onions": [
+    "brown",
+    "red"
+   ],
+   "blurb": "Tasmanian independent grocer's online fresh produce category with delivery or pickup."
+  },
+  {
+   "name": "Panetta Mercato — Brown onions 1 kg net",
+   "vendor": "Panetta Mercato",
+   "category": "greengrocer",
+   "url": "https://panettamercato.com.au/product/onions-brown-1kg-net/",
+   "status": "200",
+   "states": [
+    "NSW"
+   ],
+   "onions": [
+    "brown"
+   ],
+   "blurb": "A 1 kg net of brown onions from a Sydney grocer with online ordering."
+  },
+  {
+   "name": "Queen Victoria Market — Eschalots",
+   "vendor": "Queen Victoria Market",
+   "category": "market",
+   "url": "https://qvm.com.au/shop/fruit-veg-organics/vegetables/eschalots/",
+   "status": "200",
+   "states": [
+    "VIC"
+   ],
+   "onions": [
+    "eschalot"
+   ],
+   "blurb": "Eschalots sold through the market's online shop with same-day delivery or click and collect."
+  },
+  {
+   "name": "Claudio's Seafoods — Eschalot onions 500 g",
+   "vendor": "Claudio's Seafoods",
+   "category": "market",
+   "url": "https://claudiosseafood.com.au/products/onions-eschallot-500g",
+   "status": "200",
+   "states": [
+    "NSW"
+   ],
+   "onions": [
+    "eschalot"
+   ],
+   "blurb": "A 500 g pack of eschalots from a Sydney Fish Market trader, with delivery or pickup."
+  },
+  {
+   "name": "Foodlum — Organic brown onions 10 kg",
+   "vendor": "Foodlum",
+   "category": "online-grocer",
+   "url": "https://www.foodlum.com.au/products/organic-onions-brown-10kg-1",
+   "status": "200",
+   "states": [
+    "NSW"
+   ],
+   "onions": [
+    "organic-brown"
+   ],
+   "blurb": "A 10 kg box of certified organic brown onions from a Sydney organic delivery service."
+  },
+  {
+   "name": "Holy Organic — Organic brown onions 10 kg box",
+   "vendor": "Holy Organic",
+   "category": "online-grocer",
+   "url": "https://holyorganic.com.au/products/organic-onions-brown-10kg-box/",
+   "status": "200",
+   "states": [
+    "VIC"
+   ],
+   "onions": [
+    "organic-brown"
+   ],
+   "blurb": "Certified organic brown onions in a 10 kg box, delivered around south-east Melbourne."
+  },
+  {
+   "name": "Organic Box — Organic red onions 10 kg bag",
+   "vendor": "Organic Box",
+   "category": "online-grocer",
+   "url": "https://organicbox.com.au/products/organic-red-onions-10kg-bag",
+   "status": "bot-blocked",
+   "states": [
+    "NSW",
+    "VIC"
+   ],
+   "onions": [
+    "organic-red"
+   ],
+   "blurb": "A 10 kg bag of certified organic red onions."
+  },
+  {
+   "name": "Organic Box — Organic red onions 250 g",
+   "vendor": "Organic Box",
+   "category": "online-grocer",
+   "url": "https://organicbox.com.au/products/organic-onions-red-per-250g",
+   "status": "bot-blocked",
+   "states": [
+    "NSW",
+    "VIC"
+   ],
+   "onions": [
+    "organic-red"
+   ],
+   "blurb": "Certified organic red onions sold in roughly two-onion 250 g portions."
+  },
+  {
+   "name": "Joy Wholefoods — Organic eschallots",
+   "vendor": "Joy Wholefoods",
+   "category": "online-grocer",
+   "url": "https://joywholefoods.com.au/products/eschallots-organic-spray-free",
+   "status": "bot-blocked",
+   "states": [
+    "NSW",
+    "QLD"
+   ],
+   "onions": [
+    "eschalot"
+   ],
+   "blurb": "Organic spray-free eschallots from Sandy Creek Gourmet Produce, delivered around Brisbane and the Gold Coast."
+  },
+  {
+   "name": "Sumich — Red onions",
+   "vendor": "Sumich",
+   "category": "grower",
+   "url": "https://www.sumich.com/content/onions-red",
+   "status": "200",
+   "states": [
+    "National"
+   ],
+   "onions": [
+    "red"
+   ],
+   "blurb": "Grower's product page describing its red onions as a mild salad onion."
+  },
+  {
+   "name": "Woolworths — Macro organic spring onions",
+   "vendor": "Woolworths",
+   "category": "supermarket",
+   "url": "https://www.woolworths.com.au/shop/productdetails/122674/fresh-onion-spring-organic",
+   "status": "200",
+   "states": [
+    "National"
+   ],
+   "onions": [
+    "spring-onion"
+   ],
+   "blurb": "Australian-grown certified organic spring onion bunch."
+  },
+  {
+   "name": "Woolworths — Macro organic brown onions 1 kg",
+   "vendor": "Woolworths",
+   "category": "supermarket",
+   "url": "https://www.woolworths.com.au/shop/productdetails/145947/onion-brown-organic",
+   "status": "200",
+   "states": [
+    "National"
+   ],
+   "onions": [
+    "organic-brown"
+   ],
+   "blurb": "A 1 kg bag of Australian-grown organic brown onions."
+  },
+  {
+   "name": "Woolworths — Sliced spring onion 80 g",
+   "vendor": "Woolworths",
+   "category": "supermarket",
+   "url": "https://www.woolworths.com.au/shop/productdetails/29510/woolworths-sliced-spring-onion",
+   "status": "200",
+   "states": [
+    "National"
+   ],
+   "onions": [
+    "spring-onion"
+   ],
+   "blurb": "Australian-grown pre-sliced spring onion in an 80 g pack."
+  },
+  {
+   "name": "Woolworths — Pickling brown onions",
+   "vendor": "Woolworths",
+   "category": "supermarket",
+   "url": "https://www.woolworths.com.au/shop/productdetails/144491",
+   "status": "200",
+   "states": [
+    "National"
+   ],
+   "onions": [
+    "pickling",
+    "pearl"
+   ],
+   "blurb": "A 500 g pack of small pickling onions."
+  },
+  {
+   "name": "Coles — Red onions, loose",
+   "vendor": "Coles",
+   "category": "supermarket",
+   "url": "https://www.coles.com.au/product/coles-red-onions-loose-approx.-200g-each-4218459",
+   "status": "bot-blocked",
+   "states": [
+    "National"
+   ],
+   "onions": [
+    "red"
+   ],
+   "blurb": "Loose local red onions, about 200 g each."
+  },
+  {
+   "name": "Coles — Red onions 1 kg",
+   "vendor": "Coles",
+   "category": "supermarket",
+   "url": "https://www.coles.com.au/product/coles-red-onion-1-kg-1kg-8467604",
+   "status": "bot-blocked",
+   "states": [
+    "National"
+   ],
+   "onions": [
+    "red"
+   ],
+   "blurb": "A 1 kg pack of red onions."
+  },
+  {
+   "name": "Coles — White onions, loose",
+   "vendor": "Coles",
+   "category": "supermarket",
+   "url": "https://www.coles.com.au/product/coles-white-onions-loose-approx.-160g-each-410443",
+   "status": "bot-blocked",
+   "states": [
+    "National"
+   ],
+   "onions": [
+    "white"
+   ],
+   "blurb": "Loose white onions, about 160 g each."
+  },
+  {
+   "name": "ALDI — Red onions, loose",
+   "vendor": "ALDI",
+   "category": "supermarket",
+   "url": "https://www.aldi.com.au/product/no-brand-red-onions-loose-000000000000380297",
+   "status": "200",
+   "states": [
+    "National"
+   ],
+   "onions": [
+    "red"
+   ],
+   "blurb": "Loose red onions sold by weight."
+  },
+  {
+   "name": "IGA — Red onion 200 g",
+   "vendor": "IGA",
+   "category": "supermarket",
+   "url": "https://www.igashop.com.au/product/red-onion-80060048",
+   "status": "200",
+   "states": [
+    "National"
+   ],
+   "onions": [
+    "red"
+   ],
+   "blurb": "Single red onion sold through IGA's online store."
+  },
+  {
+   "name": "IGA — Brown onions 1 kg",
+   "vendor": "IGA",
+   "category": "supermarket",
+   "url": "https://www.igashop.com.au/product/onions-brown-1kg",
+   "status": "200",
+   "states": [
+    "NSW"
+   ],
+   "onions": [
+    "brown"
+   ],
+   "blurb": "A 1 kg brown onion listing on an IGA store's online shop."
+  },
+  {
+   "name": "Midway Market Place IGA — Red onions 1 kg",
+   "vendor": "Midway Market Place IGA",
+   "category": "supermarket",
+   "url": "https://shop.midwayiga.com.au/lines/onions-red-pp-1kg",
+   "status": "200",
+   "states": [
+    "NSW"
+   ],
+   "onions": [
+    "red"
+   ],
+   "blurb": "A 1 kg prepack of red onions from an IGA in Buronga."
+  },
+  {
+   "name": "IGA Nathalia — Red onions 1 kg",
+   "vendor": "IGA Nathalia",
+   "category": "supermarket",
+   "url": "https://iganathalia.com.au/lines/onion-red-1kg",
+   "status": "200",
+   "states": [
+    "VIC"
+   ],
+   "onions": [
+    "red"
+   ],
+   "blurb": "A 1 kg pack of red onions from a country Victorian IGA."
+  },
+  {
+   "name": "Gisborne Supa IGA — Red onions per kg",
+   "vendor": "Gisborne Supa IGA",
+   "category": "supermarket",
+   "url": "https://gisborne.shop.morgansiga.com.au/lines/onions-red-per-kg",
+   "status": "200",
+   "states": [
+    "VIC"
+   ],
+   "onions": [
+    "red"
+   ],
+   "blurb": "Red onions sold by the kilo with online ordering."
+  },
+  {
+   "name": "Lynwood Supa IGA — Red onions 2 kg",
+   "vendor": "Lynwood Supa IGA",
+   "category": "supermarket",
+   "url": "https://shop.lynwood.foodiesmarket.com.au/lines/onions-red-2kg",
+   "status": "200",
+   "states": [
+    "WA"
+   ],
+   "onions": [
+    "red"
+   ],
+   "blurb": "A 2 kg bag of red onions from a Perth Supa IGA."
+  },
+  {
+   "name": "Marks Supa IGA Mansfield — Brown onions 10 kg bag",
+   "vendor": "Marks Supa IGA",
+   "category": "supermarket",
+   "url": "https://mansfieldiga.com.au/lines/bag-onions-brown-10kg",
+   "status": "200",
+   "states": [
+    "VIC"
+   ],
+   "onions": [
+    "brown"
+   ],
+   "blurb": "A 10 kg bag of brown onions from a Supa IGA in Mansfield."
+  },
+  {
+   "name": "Daly's IGA Portland — Brown onions per kg",
+   "vendor": "Daly's IGA Portland",
+   "category": "supermarket",
+   "url": "https://portlandiga.myfoodlink.com/lines/onions-brown-p-kg-1",
+   "status": "200",
+   "states": [
+    "VIC"
+   ],
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Brown onions sold loose by the kilo with online ordering."
+  },
+  {
+   "name": "Supa IGA Blaxland — Brown onions",
+   "vendor": "Supa IGA Blaxland",
+   "category": "supermarket",
+   "url": "https://supamartigablaxland.com.au/lines/onions-brown",
+   "status": "200",
+   "states": [
+    "NSW"
+   ],
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Brown onions sold by the kilo from a Blue Mountains Supa IGA."
+  },
+  {
+   "name": "Supa IGA Blaxland — Eschallots",
+   "vendor": "Supa IGA Blaxland",
+   "category": "supermarket",
+   "url": "https://supamartigablaxland.com.au/lines/onions-eschallot",
+   "status": "200",
+   "states": [
+    "NSW"
+   ],
+   "onions": [
+    "eschalot"
+   ],
+   "blurb": "Eschallots sold by weight through the store's online shop."
+  },
+  {
+   "name": "Supamart — Eschallots per kg",
+   "vendor": "Supamart",
+   "category": "supermarket",
+   "url": "https://shop.supamartonline.com.au/lines/onions-eschallot-kg",
+   "status": "200",
+   "states": [
+    "National"
+   ],
+   "onions": [
+    "eschalot"
+   ],
+   "blurb": "Eschallots priced per kilo on a Supamart store's online shop."
+  },
+  {
+   "name": "Foodland Balaklava — Red onions per kg",
+   "vendor": "Foodland Balaklava",
+   "category": "supermarket",
+   "url": "https://foodlandbalaklava.com.au/lines/onions-red-per-kg",
+   "status": "200",
+   "states": [
+    "SA"
+   ],
+   "onions": [
+    "red"
+   ],
+   "blurb": "Red onions sold by the kilo in a South Australian Foodland's online shop."
+  },
+  {
+   "name": "Foodland Minlaton — Brown onions 1 kg",
+   "vendor": "Foodland Minlaton",
+   "category": "supermarket",
+   "url": "https://minlatonfoodland.com.au/lines/onions-pre-pack-1kg",
+   "status": "200",
+   "states": [
+    "SA"
+   ],
+   "onions": [
+    "brown"
+   ],
+   "blurb": "A 1 kg prepack of brown onions on Yorke Peninsula."
+  },
+  {
+   "name": "Foodland Minlaton — Red onions per kg",
+   "vendor": "Foodland Minlaton",
+   "category": "supermarket",
+   "url": "https://minlatonfoodland.com.au/lines/onions-red-per-kg",
+   "status": "200",
+   "states": [
+    "SA"
+   ],
+   "onions": [
+    "red"
+   ],
+   "blurb": "Red onions sold by the kilo from a Yorke Peninsula Foodland."
+  },
+  {
+   "name": "Drakes Newton — Brown onions",
+   "vendor": "Drakes Supermarkets",
+   "category": "supermarket",
+   "url": "https://058.drakes.com.au/lines/onions-brown-approx-weight-180g",
+   "status": "200",
+   "states": [
+    "SA"
+   ],
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Loose brown onions of about 180 g each from a Drakes online store."
+  },
+  {
+   "name": "Drakes Gawler East — Onions and garlic category",
+   "vendor": "Drakes Supermarkets",
+   "category": "supermarket",
+   "url": "https://143.drakes.com.au/category/onions",
+   "status": "200",
+   "states": [
+    "SA"
+   ],
+   "onions": [
+    "brown",
+    "red",
+    "white"
+   ],
+   "blurb": "Onion category with several varieties from a Drakes online store."
   }
  ],
- "seeds": [],
- "products": [],
+ "seeds": [
+  {
+   "name": "The Diggers Club — Onion 'Australian Brown'",
+   "vendor": "The Diggers Club",
+   "category": "seed",
+   "url": "https://www.diggers.com.au/products/onion-australian-brown",
+   "status": "bot-blocked",
+   "variety": "Australian Brown",
+   "onions": [
+    "australian-brown"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "This strain of Australian Brown was selected from a popular market garden variety grown near Colac in the 1940's."
+  },
+  {
+   "name": "The Diggers Club — Onion 'Red Marksman'",
+   "vendor": "The Diggers Club",
+   "category": "seed",
+   "url": "https://www.diggers.com.au/products/onion-red-marksman",
+   "status": "bot-blocked",
+   "variety": "Red Marksman",
+   "onions": [
+    "red-marksman"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "This late planting variety stores exceptionally well for a red onion."
+  },
+  {
+   "name": "The Diggers Club — Onion 'Long Red Florence'",
+   "vendor": "The Diggers Club",
+   "category": "seed",
+   "url": "https://www.diggers.com.au/products/onion-long-red-florence",
+   "status": "200",
+   "variety": "Long Red Florence",
+   "onions": [
+    "tropea"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Easy to grow sweet shallot style onions."
+  },
+  {
+   "name": "The Diggers Club — Onion 'Cream Gold'",
+   "vendor": "The Diggers Club",
+   "category": "seed",
+   "url": "https://www.diggers.com.au/products/onion-cream-gold",
+   "status": "bot-blocked",
+   "variety": "Cream Gold",
+   "onions": [
+    "cream-gold"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "A classic, versatile garden favourite that stores well."
+  },
+  {
+   "name": "The Diggers Club — Onion 'Sweet Domenica'",
+   "vendor": "The Diggers Club",
+   "category": "seed",
+   "url": "https://www.diggers.com.au/products/onion-sweet-domenica",
+   "status": "bot-blocked",
+   "variety": "Sweet Domenica",
+   "onions": [
+    "sweet",
+    "brown"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Early variety onion."
+  },
+  {
+   "name": "The Diggers Club — Onion 'Barletta'",
+   "vendor": "The Diggers Club",
+   "category": "seed",
+   "url": "https://www.diggers.com.au/products/onion-barletta",
+   "status": "bot-blocked",
+   "variety": "Barletta",
+   "onions": [
+    "barletta"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Early variety onion."
+  },
+  {
+   "name": "The Diggers Club — Onion 'Yellow Sweet Spanish'",
+   "vendor": "The Diggers Club",
+   "category": "seed",
+   "url": "https://www.diggers.com.au/products/onion-yellow-sweet-spanish",
+   "status": "bot-blocked",
+   "variety": "Yellow Sweet Spanish",
+   "onions": [
+    "sweet",
+    "brown"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "A favourite heirloom variety producing large, golden-brown bulbs with crisp, white flesh and a mild, sweet flavour."
+  },
+  {
+   "name": "The Diggers Club — Onion 'Eclipse'",
+   "vendor": "The Diggers Club",
+   "category": "seed",
+   "url": "https://www.diggers.com.au/products/onion-eclipse",
+   "status": "bot-blocked",
+   "variety": "Eclipse",
+   "onions": [
+    "white",
+    "pearl"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Heirloom white onion ideal for southern climates and long growing seasons."
+  },
+  {
+   "name": "The Diggers Club — Spring Onion 'Red'",
+   "vendor": "The Diggers Club",
+   "category": "seed",
+   "url": "https://www.diggers.com.au/products/spring-onion-red",
+   "status": "bot-blocked",
+   "variety": "Red spring onion",
+   "onions": [
+    "spring-onion",
+    "red"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "The Queen of all spring onions, this one is versatile and delicious."
+  },
+  {
+   "name": "The Diggers Club — Spring Onion 'Evergreen Trident' (Organic)",
+   "vendor": "The Diggers Club",
+   "category": "seed",
+   "url": "https://www.diggers.com.au/products/spring-onion-evergreen-trident",
+   "status": "200",
+   "variety": "Evergreen Trident",
+   "onions": [
+    "spring-onion"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Grown for their mild bulbs and long hollow green leaves, spring onions are a staple of the vegie garden and kitchen."
+  },
+  {
+   "name": "The Diggers Club — Shallot 'Roderique' F1",
+   "vendor": "The Diggers Club",
+   "category": "seed",
+   "url": "https://www.diggers.com.au/products/shallot-roderique-f1",
+   "status": "bot-blocked",
+   "variety": "Roderique F1",
+   "onions": [
+    "banana-shallot"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "A true shallot from seed."
+  },
+  {
+   "name": "The Diggers Club — Red Shallot (Bulbs)",
+   "vendor": "The Diggers Club",
+   "category": "sets-bulbs",
+   "url": "https://www.diggers.com.au/products/red-shallot-5-bulbs",
+   "status": "bot-blocked",
+   "variety": "Red shallot",
+   "onions": [
+    "eschalot",
+    "red"
+   ],
+   "ships": "Australia-wide (bulbs may be restricted to WA/TAS by quarantine; check listing)",
+   "blurb": "Red Shallots are the stars of the shallot world."
+  },
+  {
+   "name": "The Diggers Club — Golden Shallots (5 Bulbs)",
+   "vendor": "The Diggers Club",
+   "category": "sets-bulbs",
+   "url": "https://www.diggers.com.au/products/shallots-golden-5-bulbs",
+   "status": "bot-blocked",
+   "variety": "Golden shallot",
+   "onions": [
+    "eschalot"
+   ],
+   "ships": "Australia-wide (bulbs may be restricted to WA/TAS by quarantine; check listing)",
+   "blurb": "Popular in French cuisine, Golden Shallots are a 'true shallot' prized for their exceptional flavour that is most commonly used in stews and casseroles, and anywhere a sweet, yet mild onion flavour is desired."
+  },
+  {
+   "name": "The Diggers Club — Banana Shallot (5 bulbs)",
+   "vendor": "The Diggers Club",
+   "category": "sets-bulbs",
+   "url": "https://www.diggers.com.au/products/banana-shallot-5-bulbs",
+   "status": "bot-blocked",
+   "variety": "Banana shallot",
+   "onions": [
+    "banana-shallot"
+   ],
+   "ships": "Australia-wide (bulbs may be restricted to WA/TAS by quarantine; check listing)",
+   "blurb": "A happy cross between onions and shallots, naturalised in France in the 17th Century, banana shallots are often referred to as French Échalotes and can be harvested in late summer and stored for several months, providing a fresh supply of delicious onions throughout the year."
+  },
+  {
+   "name": "The Diggers Club — Red Banana Shallots (5 Bulbs)",
+   "vendor": "The Diggers Club",
+   "category": "sets-bulbs",
+   "url": "https://www.diggers.com.au/products/red-banana-shallots-5-bulbs",
+   "status": "bot-blocked",
+   "variety": "Red banana shallot (red echalion)",
+   "onions": [
+    "banana-shallot"
+   ],
+   "ships": "Australia-wide (bulbs may be restricted to WA/TAS by quarantine; check listing)",
+   "blurb": "The Red Banana Shallot, also known as the red echalion, is prized for its sweet, mild flavour that sets it apart from regular red shallots."
+  },
+  {
+   "name": "The Diggers Club — Potato Onion Red (6 bulbs) - Organic",
+   "vendor": "The Diggers Club",
+   "category": "sets-bulbs",
+   "url": "https://www.diggers.com.au/products/potato-onion-red-6-bulbs",
+   "status": "bot-blocked",
+   "variety": "Red potato onion",
+   "onions": [
+    "potato-onion"
+   ],
+   "ships": "Australia-wide (bulbs may be restricted to WA/TAS by quarantine; check listing)",
+   "blurb": "Potato onions come in various shapes, sizes and colours, but all are bunching (multiplying) onions that are best grown from bulb divisions each year rather than seed."
+  },
+  {
+   "name": "The Diggers Club — Potato Onions (6 Bulbs)",
+   "vendor": "The Diggers Club",
+   "category": "sets-bulbs",
+   "url": "https://www.diggers.com.au/products/potato-onions-6-bulbs-organic",
+   "status": "bot-blocked",
+   "variety": "Potato onion",
+   "onions": [
+    "potato-onion"
+   ],
+   "ships": "Australia-wide (bulbs may be restricted to WA/TAS by quarantine; check listing)",
+   "blurb": "An heirloom onion originally listed in Australian seed and bulb catalogues back in the 1800s, this clumping perennial onion is rarely offered for sale in shops as it's production is best linked to hand planting and harvesting - so it's perfect for home gardeners."
+  },
+  {
+   "name": "Green Harvest — Onion 'Gladalan Brown'",
+   "vendor": "Green Harvest",
+   "category": "seed",
+   "url": "https://greenharvest.com.au/products/onion-gladalan-brown",
+   "status": "bot-blocked",
+   "variety": "Gladalan Brown",
+   "onions": [
+    "gladalan-brown",
+    "gladalan"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Gladalan Brown' is an open-pollinated, productive, medium to large brown onion up to 15 cm in diameter, with good keeping qualities."
+  },
+  {
+   "name": "Green Harvest — Onion 'Long Tropea Red'",
+   "vendor": "Green Harvest",
+   "category": "seed",
+   "url": "https://greenharvest.com.au/products/onion-long-tropea-red",
+   "status": "bot-blocked",
+   "variety": "Long Tropea Red",
+   "onions": [
+    "tropea"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "An Italian heirloom traditionally grown in Italy and France."
+  },
+  {
+   "name": "Green Harvest — Onion 'Ishikura Winter Long'",
+   "vendor": "Green Harvest",
+   "category": "seed",
+   "url": "https://greenharvest.com.au/products/onion-ishikura-winter-long",
+   "status": "bot-blocked",
+   "variety": "Ishikura Winter Long",
+   "onions": [
+    "welsh-onion",
+    "ishikura"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Ishikura' is a popular variety in Japan for its long, white stems and excellent flavour."
+  },
+  {
+   "name": "Green Harvest — Onion 'Mini Purplette'",
+   "vendor": "Green Harvest",
+   "category": "seed",
+   "url": "https://greenharvest.com.au/products/onion-mini-purplette",
+   "status": "bot-blocked",
+   "variety": "Mini Purplette",
+   "onions": [
+    "pearl",
+    "pickling",
+    "red"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Mini Purplette' is a pearl or cocktail onion with glossy, rich burgundy skin, 2.5 - 5 cm across."
+  },
+  {
+   "name": "Green Harvest — Onion 'Nz Creamgold'",
+   "vendor": "Green Harvest",
+   "category": "seed",
+   "url": "https://greenharvest.com.au/products/onion-nz-creamgold",
+   "status": "bot-blocked",
+   "variety": "NZ Creamgold",
+   "onions": [
+    "cream-gold"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "NZ Creamgold' is a long-day length onion, suitable for cooler areas."
+  },
+  {
+   "name": "Green Harvest — Onion 'Red Beard'",
+   "vendor": "Green Harvest",
+   "category": "seed",
+   "url": "https://greenharvest.com.au/products/onion-red-beard",
+   "status": "200",
+   "variety": "Red Beard",
+   "onions": [
+    "welsh-onion"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion 'Red Beard' is an heirloom variety of bunching onion native to China and Kazakhstan, arriving in Europe in the Middle Ages and in England in the 17th century."
+  },
+  {
+   "name": "Green Harvest — Onion 'Evergreen Bunching'",
+   "vendor": "Green Harvest",
+   "category": "seed",
+   "url": "https://greenharvest.com.au/products/onion-evergreen-bunching",
+   "status": "bot-blocked",
+   "variety": "Evergreen Bunching",
+   "onions": [
+    "welsh-onion"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "A reliable and useful heirloom vegetable, 'Evergreen Bunching' is a non-bulbing, open-pollinated spring onion which readily forms a clump to 30 - 40 cm high."
+  },
+  {
+   "name": "Happy Valley Seeds — Assorted Shallots and Potato Onion Bulbs Mix - 4 Varieties",
+   "vendor": "Happy Valley Seeds",
+   "category": "sets-bulbs",
+   "url": "https://www.happyvalleyseeds.com.au/products/assorted-shallots-4-varieties",
+   "status": "bot-blocked",
+   "variety": "Assorted shallots and potato onion bulbs",
+   "onions": [
+    "eschalot",
+    "potato-onion"
+   ],
+   "ships": "Australia-wide with restrictions: aggregatum - NOT to WA & TAS We put together this mixed bag so you can try a few different varieties without having to buy a large amount of any one type",
+   "blurb": "Assorted Shallots and Potato Onion Bulbs Mix - 4 Varieties Allium cepa var."
+  },
+  {
+   "name": "Happy Valley Seeds — Shallot Red (Pack of 5 Bulbs) (TC)",
+   "vendor": "Happy Valley Seeds",
+   "category": "sets-bulbs",
+   "url": "https://www.happyvalleyseeds.com.au/products/shallot-red-pack-of-5-bulbs",
+   "status": "bot-blocked",
+   "variety": "Red shallot",
+   "onions": [
+    "eschalot",
+    "red"
+   ],
+   "ships": "Australia-wide (bulbs may be restricted to WA/TAS by quarantine; check listing)",
+   "blurb": "Shallot Red (Pack of 5 Bulbs) (TC) Allium cepa var."
+  },
+  {
+   "name": "Happy Valley Seeds — Shallot Golden (Pack of 5 Bulbs) (TC)",
+   "vendor": "Happy Valley Seeds",
+   "category": "sets-bulbs",
+   "url": "https://www.happyvalleyseeds.com.au/products/shallot-golden-pack-of-5-bulbs",
+   "status": "bot-blocked",
+   "variety": "Golden shallot",
+   "onions": [
+    "eschalot"
+   ],
+   "ships": "Australia-wide (bulbs may be restricted to WA/TAS by quarantine; check listing)",
+   "blurb": "Shallot Golden (Pack of 5 Bulbs) (TC) Allium cepa var."
+  },
+  {
+   "name": "Happy Valley Seeds — French Echalion (Pack of 5) (TC)",
+   "vendor": "Happy Valley Seeds",
+   "category": "sets-bulbs",
+   "url": "https://www.happyvalleyseeds.com.au/products/french-echalion-pack-of-5",
+   "status": "bot-blocked",
+   "variety": "French Echalion (banana shallot)",
+   "onions": [
+    "banana-shallot"
+   ],
+   "ships": "Australia-wide with restrictions: aggregatum (NOT to WA, TAS) French Echalions, also known as Banana Shallots, are a type of shallot that's larger and easier to use than traditional shallots",
+   "blurb": "French Echalion (Pack of 5) Allium cepa var."
+  },
+  {
+   "name": "Happy Valley Seeds — Onion - White Odourless seeds",
+   "vendor": "Happy Valley Seeds",
+   "category": "seed",
+   "url": "https://www.happyvalleyseeds.com.au/products/onion-white-odourless-seeds",
+   "status": "bot-blocked",
+   "variety": "White Odourless",
+   "onions": [
+    "odourless"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion White Odourless Allium cepa Packet: 100 seeds White Odourless is a mild, low-pungency white globe onion, gentle enough to slice raw into a salad without the sting or the lingering smell of a strong onion."
+  },
+  {
+   "name": "Happy Valley Seeds — Onion - Brown Odourless seeds",
+   "vendor": "Happy Valley Seeds",
+   "category": "seed",
+   "url": "https://www.happyvalleyseeds.com.au/products/onion-brown-odourless-seeds",
+   "status": "bot-blocked",
+   "variety": "Brown Odourless",
+   "onions": [
+    "odourless"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion Brown Odourless Allium cepa Packet: 100 seeds Brown Odourless is a mild, low-pungency brown globe onion, wearing the familiar golden-brown skin but with a softer, sweeter bite than a standard cooking onion."
+  },
+  {
+   "name": "Happy Valley Seeds — Onion - Early Pukekohe Long Keeper seeds",
+   "vendor": "Happy Valley Seeds",
+   "category": "seed",
+   "url": "https://www.happyvalleyseeds.com.au/products/onion-early-pukekohe-long-keeper-seeds",
+   "status": "bot-blocked",
+   "variety": "Early Pukekohe Long Keeper",
+   "onions": [
+    "pukekohe-long-keeper"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "ONION Early Pukekohe Long Keeper- 100 Heirloom Seeds Pukekohe long keeper onion has brown skin with white flesh."
+  },
+  {
+   "name": "Happy Valley Seeds — Onion - Bunching White Lisbon seeds (Organic)",
+   "vendor": "Happy Valley Seeds",
+   "category": "seed",
+   "url": "https://www.happyvalleyseeds.com.au/products/onion-bunching-white-lisbon-seeds-organic",
+   "status": "bot-blocked",
+   "variety": "White Lisbon (organic)",
+   "onions": [
+    "white-lisbon"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion Bunching White Lisbon (Organic) Southern Cross Certified Organic seed (SXC cert 26065) Allium cepa Packet: 100 seeds White Lisbon is the standard bunching onion, grown for crisp white stems and green tops rather than a bulb."
+  },
+  {
+   "name": "Happy Valley Seeds — Onion (Spring) - Candy Stick Red seeds",
+   "vendor": "Happy Valley Seeds",
+   "category": "seed",
+   "url": "https://www.happyvalleyseeds.com.au/products/onion-spring-candy-stick-red-seeds",
+   "status": "bot-blocked",
+   "variety": "Candy Stick Red",
+   "onions": [
+    "spring-onion",
+    "red"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "SPRING ONION Candy Stick Red - 150 Seeds Allium cepa/Allium fistulosum Red skinned bunching onion with bright red attractive stalks."
+  },
+  {
+   "name": "Happy Valley Seeds — Onion - Rio Red Rocks F1 seeds",
+   "vendor": "Happy Valley Seeds",
+   "category": "seed",
+   "url": "https://www.happyvalleyseeds.com.au/products/onion-rio-red-rocks-f1-seeds",
+   "status": "bot-blocked",
+   "variety": "Rio Red Rocks F1",
+   "onions": [
+    "red"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion Rio Red Rocks F1- 100 seeds Onion Rio Red Rocks stands out as Australia's leading hybrid globe red onion for early and mid-season production."
+  },
+  {
+   "name": "Happy Valley Seeds — Onion (Spring) - Fuyuyo seeds",
+   "vendor": "Happy Valley Seeds",
+   "category": "seed",
+   "url": "https://www.happyvalleyseeds.com.au/products/onion-spring-fuyuyo-seeds",
+   "status": "bot-blocked",
+   "variety": "Fuyuyo",
+   "onions": [
+    "welsh-onion",
+    "japanese-bunching"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion (Spring) - Fuyuyo seeds Allium fistulosum Pack: 100 seeds, 10g, 25g This Japanese variety of bunching onions is known for its characteristic long and tender green leaves and mild flavour that can be enjoyed cooked or raw."
+  },
+  {
+   "name": "Happy Valley Seeds — Onion (Spring) - Natsuyo seeds",
+   "vendor": "Happy Valley Seeds",
+   "category": "seed",
+   "url": "https://www.happyvalleyseeds.com.au/products/onion-spring-natsuyo-seeds",
+   "status": "bot-blocked",
+   "variety": "Natsuyo",
+   "onions": [
+    "welsh-onion",
+    "japanese-bunching"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion (Spring) - Natsuyo seeds Allium fistulosum Pack: 100 seeds, 10g, 25g This variety of onions is a spring/bunching type that does not form bulbs and has a slender green leaf."
+  },
+  {
+   "name": "Happy Valley Seeds — Onion - Early White Grano seeds",
+   "vendor": "Happy Valley Seeds",
+   "category": "seed",
+   "url": "https://www.happyvalleyseeds.com.au/products/onion-early-white-grano-seeds",
+   "status": "bot-blocked",
+   "variety": "Early White Grano",
+   "onions": [
+    "white"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "ONION Early White Grano seeds Allium cepa Pack: 150 seeds, 10g, 25g Open Pollinated."
+  },
+  {
+   "name": "Happy Valley Seeds — Onion (Spring) - Japanese Kyoto Kujo Negi seeds",
+   "vendor": "Happy Valley Seeds",
+   "category": "seed",
+   "url": "https://www.happyvalleyseeds.com.au/products/onion-spring-japanese-kyoto-kujo-negi-seeds",
+   "status": "bot-blocked",
+   "variety": "Kyoto Kujo Negi",
+   "onions": [
+    "welsh-onion",
+    "japanese-bunching",
+    "kujo"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion (Spring) - Japanese Kyoto Kujo Negi - 150 seeds Allium fistulosum Cool season annuals don't come much more traditional than this non-bulbing Japanese green onion, which has been a staple of Kyoto cuisine since the dawning days of the Edo period in the early 1800s."
+  },
+  {
+   "name": "Greenpatch Organic Seeds — Shallots - Red Beard",
+   "vendor": "Greenpatch Organic Seeds",
+   "category": "seed",
+   "url": "https://www.greenpatchseeds.com.au/products/shallots-red-beard",
+   "status": "bot-blocked",
+   "variety": "Red Beard",
+   "onions": [
+    "welsh-onion"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "(Allium fistulosum) - Untreated Seed Red Beard Shallot is a colourful plant to 70cm high producing red stalks up to 30cm."
+  },
+  {
+   "name": "Greenpatch Organic Seeds — Onion - Pukekohe Long Keeper",
+   "vendor": "Greenpatch Organic Seeds",
+   "category": "seed",
+   "url": "https://www.greenpatchseeds.com.au/products/onion-pukekche-long-keeper",
+   "status": "bot-blocked",
+   "variety": "Pukekohe Long Keeper",
+   "onions": [
+    "pukekohe-long-keeper"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "(Allium cepa) Pukekohe Long keeper is a excellent storing, brown skinned onion, resists bolting."
+  },
+  {
+   "name": "Greenpatch Organic Seeds — Onion - Gladalan Brown",
+   "vendor": "Greenpatch Organic Seeds",
+   "category": "seed",
+   "url": "https://www.greenpatchseeds.com.au/products/onion-gladalan-brown",
+   "status": "bot-blocked",
+   "variety": "Gladalan Brown",
+   "onions": [
+    "gladalan-brown",
+    "gladalan"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "(Allium cepa) - Untreated Seed Gladalan Brown onion is a popular old variety, producing good sized brown skinned onions that can be grown throughout Australia."
+  },
+  {
+   "name": "Greenpatch Organic Seeds — Onion - Long Tropea Red",
+   "vendor": "Greenpatch Organic Seeds",
+   "category": "seed",
+   "url": "https://www.greenpatchseeds.com.au/products/onion-long-tropea-red",
+   "status": "bot-blocked",
+   "variety": "Long Tropea Red",
+   "onions": [
+    "tropea"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "(Allium cepa) - Untreated Seed Excellent salad onion producing medium sized, elongated red onions."
+  },
+  {
+   "name": "Greenpatch Organic Seeds — Onion - Cream Gold",
+   "vendor": "Greenpatch Organic Seeds",
+   "category": "seed",
+   "url": "https://www.greenpatchseeds.com.au/products/onion-cream-gold",
+   "status": "bot-blocked",
+   "variety": "Cream Gold (organic)",
+   "onions": [
+    "cream-gold"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "(Allium cepa) - Certified Organic Seed - Grown at Greenpatch Organic Seeds Cream Gold Onion is a popular variety producing large brown to gold globe onions."
+  },
+  {
+   "name": "Greenpatch Organic Seeds — Onion - Early White Spanish",
+   "vendor": "Greenpatch Organic Seeds",
+   "category": "seed",
+   "url": "https://www.greenpatchseeds.com.au/products/onion-early-white-spanish",
+   "status": "bot-blocked",
+   "variety": "Early White Spanish",
+   "onions": [
+    "white"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "(Allium cepa) - Untreated Seed Early White Spanish Onion is a popular variety, producing mild, sweet, round white fleshed onions."
+  },
+  {
+   "name": "Greenpatch Organic Seeds — Onion - Spring Onion White Lisbon",
+   "vendor": "Greenpatch Organic Seeds",
+   "category": "seed",
+   "url": "https://www.greenpatchseeds.com.au/products/onion-spring-onion-white-lisbon",
+   "status": "bot-blocked",
+   "variety": "White Lisbon",
+   "onions": [
+    "white-lisbon"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "(Allium cepa) White Lisbon Spring Onion is a bunching variety producing smaller bulbs, ideal for pickling."
+  },
+  {
+   "name": "Greenpatch Organic Seeds — Tree Onion/Egyptian Walking Onion",
+   "vendor": "Greenpatch Organic Seeds",
+   "category": "sets-bulbs",
+   "url": "https://www.greenpatchseeds.com.au/products/tree-onion-egyptian",
+   "status": "bot-blocked",
+   "variety": "Egyptian Walking (Tree) Onion",
+   "onions": [
+    "egyptian-walking"
+   ],
+   "ships": "Australia-wide (bulbs may be restricted to WA/TAS by quarantine; check listing)",
+   "blurb": "(Allium cepa - proliferum) - Certified Organic Plants - Grown at Greenpatch Organic Seeds Perennial to 60cm, producing multiplying bulbs to 4cm across with brown skin."
+  },
+  {
+   "name": "Greenpatch Organic Seeds — Potato Onion - Golden Brown",
+   "vendor": "Greenpatch Organic Seeds",
+   "category": "sets-bulbs",
+   "url": "https://www.greenpatchseeds.com.au/products/potato-onion-golden-brown",
+   "status": "bot-blocked",
+   "variety": "Golden Brown potato onion",
+   "onions": [
+    "potato-onion"
+   ],
+   "ships": "Australia-wide (bulbs may be restricted to WA/TAS by quarantine; check listing)",
+   "blurb": "(Allium cepa) - Certified Organic Plants - Grown at Greenpatch Organic Seeds Potato Onions are a perennial to 40cm high with green onion like tops & brown bulbs that form at the base."
+  },
+  {
+   "name": "Greenpatch Organic Seeds — Shallot - Evergreen Bunching Nebuka",
+   "vendor": "Greenpatch Organic Seeds",
+   "category": "seed",
+   "url": "https://www.greenpatchseeds.com.au/products/shallot-evergreen-bunching-nebuka",
+   "status": "bot-blocked",
+   "variety": "Evergreen Bunching Nebuka",
+   "onions": [
+    "welsh-onion"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Allium cepa - Certified Organic Seed - Grown at Greenpatch Organic Seeds Also known as Welsh Onion, Spring Onion & Scallion."
+  },
+  {
+   "name": "Southern Harvest — Onion, Potato",
+   "vendor": "Southern Harvest",
+   "category": "sets-bulbs",
+   "url": "https://southernharvest.com.au/products/onion-potato",
+   "status": "bot-blocked",
+   "variety": "Potato onion",
+   "onions": [
+    "potato-onion"
+   ],
+   "ships": "Australia-wide (bulbs may be restricted to WA/TAS by quarantine; check listing)",
+   "blurb": "A true perennial treasure for the dedicated grower."
+  },
+  {
+   "name": "Southern Harvest — Shallot ‘Golden Brittany’ F1",
+   "vendor": "Southern Harvest",
+   "category": "seed",
+   "url": "https://southernharvest.com.au/products/shallot-golden-brittany-f1",
+   "status": "bot-blocked",
+   "variety": "Golden Brittany F1",
+   "onions": [
+    "eschalot"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "A true classic of the French kitchen garden."
+  },
+  {
+   "name": "Southern Harvest — Onion ‘Red Tropea Long’",
+   "vendor": "Southern Harvest",
+   "category": "seed",
+   "url": "https://southernharvest.com.au/products/onion-red-tropea-long",
+   "status": "bot-blocked",
+   "variety": "Red Tropea Long",
+   "onions": [
+    "tropea"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "A torpedo shaped red onion."
+  },
+  {
+   "name": "Southern Harvest — Onion ‘White Knight’ F1",
+   "vendor": "Southern Harvest",
+   "category": "seed",
+   "url": "https://southernharvest.com.au/products/onion-white-knight-f1",
+   "status": "bot-blocked",
+   "variety": "White Knight F1",
+   "onions": [
+    "white"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Medium - large round white bulbs that are ery versatile and can be eaten raw or cooked."
+  },
+  {
+   "name": "Southern Harvest — SPRING ONION ‘Red Beard’",
+   "vendor": "Southern Harvest",
+   "category": "seed",
+   "url": "https://southernharvest.com.au/products/spring-onion-red-beard",
+   "status": "bot-blocked",
+   "variety": "Red Beard",
+   "onions": [
+    "welsh-onion"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "This is your classic great tasting spring/bunching onion with a red twist!"
+  },
+  {
+   "name": "Southern Harvest — Echalion/Shallot ‘Roderique’",
+   "vendor": "Southern Harvest",
+   "category": "seed",
+   "url": "https://southernharvest.com.au/products/shallot-roderique",
+   "status": "bot-blocked",
+   "variety": "Roderique",
+   "onions": [
+    "banana-shallot"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "A traditional French echalion that is prized their sweet, mild flavour."
+  },
+  {
+   "name": "Southern Harvest — ONION 'Creamgold'",
+   "vendor": "Southern Harvest",
+   "category": "seed",
+   "url": "https://southernharvest.com.au/products/onion-creamgold",
+   "status": "bot-blocked",
+   "variety": "Creamgold",
+   "onions": [
+    "cream-gold"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "These large, light-brown, globe-shaped onions are an excellent winter crop, best suited to cooler climates."
+  },
+  {
+   "name": "Southern Harvest — ONION 'Sheffield Red'",
+   "vendor": "Southern Harvest",
+   "category": "seed",
+   "url": "https://southernharvest.com.au/products/onion-sheffield-red",
+   "status": "bot-blocked",
+   "variety": "Sheffield Red",
+   "onions": [
+    "red"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "These large, dark-red skinned, globe-shaped onions are an excellent, good-yielding, winter crop, best suited to cooler climates."
+  },
+  {
+   "name": "Southern Harvest — ONION 'Domenica Sweet'",
+   "vendor": "Southern Harvest",
+   "category": "seed",
+   "url": "https://southernharvest.com.au/products/onion-domenica-sweet",
+   "status": "bot-blocked",
+   "variety": "Domenica Sweet",
+   "onions": [
+    "sweet",
+    "brown"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "A brown, sweet onion with superb flavour, a ‘flattened globe’ shape and light-brown skin."
+  },
+  {
+   "name": "Mr Fothergill's — Rossa Lunga Di Firenze Onion Seeds",
+   "vendor": "Mr Fothergill's",
+   "category": "seed",
+   "url": "https://www.mrfothergills.com.au/products/onion-rossa-lunga-di-firenze",
+   "status": "200",
+   "variety": "Rossa Lunga di Firenze",
+   "onions": [
+    "tropea"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Rossa Lunga di Firenze is a much-loved Italian onion variety with long, pink bulbs that taste as good as they look."
+  },
+  {
+   "name": "Mr Fothergill's — Shallots Golden (Bulbs)",
+   "vendor": "Mr Fothergill's",
+   "category": "sets-bulbs",
+   "url": "https://www.mrfothergills.com.au/products/shallots-golden",
+   "status": "200",
+   "variety": "Golden shallot",
+   "onions": [
+    "eschalot"
+   ],
+   "ships": "Australia-wide with restrictions: NOT AVAILABLE TO TAS / WA / NT DUE TO QUARANTINE RESTRICTIONS",
+   "blurb": "Widely used in Asian dishes, these Shallots look like a cross between an onion and garlic."
+  },
+  {
+   "name": "Mr Fothergill's — Shallots Red (Bulbs)",
+   "vendor": "Mr Fothergill's",
+   "category": "sets-bulbs",
+   "url": "https://www.mrfothergills.com.au/products/shallots-red",
+   "status": "200",
+   "variety": "Red shallot",
+   "onions": [
+    "eschalot",
+    "red"
+   ],
+   "ships": "Australia-wide with restrictions: NOT AVAILABLE TO TAS / WA / NT DUE TO QUARANTINE RESTRICTIONS",
+   "blurb": "These delicious red Shallots look like a cross between an onion and garlic."
+  },
+  {
+   "name": "Mr Fothergill's — Matrix Spring Onion Seeds",
+   "vendor": "Mr Fothergill's",
+   "category": "seed",
+   "url": "https://www.mrfothergills.com.au/products/rhs-spring-onion-matrix",
+   "status": "200",
+   "variety": "Matrix",
+   "onions": [
+    "spring-onion"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "RHS Matrix Spring Onion is a great choice for beginner gardeners."
+  },
+  {
+   "name": "Mr Fothergill's — Creamgold Onion Seeds",
+   "vendor": "Mr Fothergill's",
+   "category": "seed",
+   "url": "https://www.mrfothergills.com.au/products/onion-creamgold",
+   "status": "200",
+   "variety": "Creamgold",
+   "onions": [
+    "cream-gold"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Creamgold onion seeds are a high-quality, mid-season variety that produces globe-shaped vegetable bulbs with light brown skin and creamy white flesh."
+  },
+  {
+   "name": "Mr Fothergill's — Onion Paris Silverskin Pickling",
+   "vendor": "Mr Fothergill's",
+   "category": "seed",
+   "url": "https://www.mrfothergills.com.au/products/onion-pickling-paris-silverskin",
+   "status": "200",
+   "variety": "Paris Silverskin",
+   "onions": [
+    "pickling",
+    "pearl",
+    "white"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "The Paris Silverskin onion from Mr Fothergill’s is a popular and quick-growing pickling onion—grow them, pickle them in a jar, and enjoy their tangy crunch all year round."
+  },
+  {
+   "name": "Mr Fothergill's — Gladalan White Onion Seeds",
+   "vendor": "Mr Fothergill's",
+   "category": "seed",
+   "url": "https://www.mrfothergills.com.au/products/onion-gladalan-white",
+   "status": "200",
+   "variety": "Gladalan White",
+   "onions": [
+    "gladalan-white",
+    "gladalan"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Gladalan White Onion grows round, white bulbs with smooth and crisp skin that store exceptionally well."
+  },
+  {
+   "name": "Mr Fothergill's — Onion Early Californian Red",
+   "vendor": "Mr Fothergill's",
+   "category": "seed",
+   "url": "https://www.mrfothergills.com.au/products/onion-early-californian-red",
+   "status": "200",
+   "variety": "Early Californian Red",
+   "onions": [
+    "red"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Red onions add colour as well as flavour to cooked dishes and especially to salads."
+  },
+  {
+   "name": "Mr Fothergill's — Bunching Ishikura Spring Onion Seeds",
+   "vendor": "Mr Fothergill's",
+   "category": "seed",
+   "url": "https://www.mrfothergills.com.au/products/spring-onion-bunching-onion-ishikura",
+   "status": "200",
+   "variety": "Ishikura",
+   "onions": [
+    "welsh-onion",
+    "ishikura"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Add a fresh twist to your garden with Ishikura spring onion."
+  },
+  {
+   "name": "Mr Fothergill's — Spring Onion Bunching Nebuka ORGANIC",
+   "vendor": "Mr Fothergill's",
+   "category": "seed",
+   "url": "https://www.mrfothergills.com.au/products/spring-onion-bunching-nebuka-organic",
+   "status": "200",
+   "variety": "Nebuka (organic)",
+   "onions": [
+    "welsh-onion"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Delicately flavoured variety."
+  },
+  {
+   "name": "Mr Fothergill's — Onion Hunter River Brown",
+   "vendor": "Mr Fothergill's",
+   "category": "seed",
+   "url": "https://www.mrfothergills.com.au/products/onion-hunter-river-brown",
+   "status": "200",
+   "variety": "Hunter River Brown",
+   "onions": [
+    "hunter-river-brown"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "The Hunter River brown onion is a reliable early variety that produces large, globe-shaped bulbs with light brown skin."
+  },
+  {
+   "name": "Mr Fothergill's — White Lisbon Spring Onion Seeds",
+   "vendor": "Mr Fothergill's",
+   "category": "seed",
+   "url": "https://www.mrfothergills.com.au/products/spring-onion-white-lisbon-winter-hardy",
+   "status": "200",
+   "variety": "White Lisbon (winter hardy)",
+   "onions": [
+    "white-lisbon"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Grow your own White Lisbon spring onion with Mr Fothergill's."
+  },
+  {
+   "name": "Mr Fothergill's — Spring Onion All Year Round Seed Tape",
+   "vendor": "Mr Fothergill's",
+   "category": "seed",
+   "url": "https://www.mrfothergills.com.au/products/spring-onion-all-year-round-seed-tape",
+   "status": "200",
+   "variety": "All Year Round (seed tape)",
+   "onions": [
+    "spring-onion"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Our Spring Onion All Year Round Seed Tape is like no other onion seed ."
+  },
+  {
+   "name": "Garden Express — Seed - Spring Onion Ishikura",
+   "vendor": "Garden Express",
+   "category": "seed",
+   "url": "https://www.gardenexpress.com.au/products/seed-spring-onion-ishikura",
+   "status": "bot-blocked",
+   "variety": "Ishikura",
+   "onions": [
+    "welsh-onion",
+    "ishikura"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Spring Onion Ishikura is a wonderful type of salad onion that does not bulb but forms long white stalks."
+  },
+  {
+   "name": "Garden Express — Seed - Spring Onion White Lisbon",
+   "vendor": "Garden Express",
+   "category": "seed",
+   "url": "https://www.gardenexpress.com.au/products/seed-spring-onion-white-lisbon",
+   "status": "bot-blocked",
+   "variety": "White Lisbon",
+   "onions": [
+    "white-lisbon"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Spring Onion White Lisbon is a very hardy strain of salad onion can be sown until October for use the following spring."
+  },
+  {
+   "name": "Garden Express — Seed - Onion Hunter River Brown",
+   "vendor": "Garden Express",
+   "category": "seed",
+   "url": "https://www.gardenexpress.com.au/products/seed-onion-hunter-river-brown",
+   "status": "bot-blocked",
+   "variety": "Hunter River Brown",
+   "onions": [
+    "hunter-river-brown"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion Hunter River Brown is our choice as the best all-round early Onion."
+  },
+  {
+   "name": "Garden Express — Seed - Onion Early Californian Red",
+   "vendor": "Garden Express",
+   "category": "seed",
+   "url": "https://www.gardenexpress.com.au/products/seed-onion-early-californian-red",
+   "status": "bot-blocked",
+   "variety": "Early Californian Red",
+   "onions": [
+    "red"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion Early Californian Red is a glowing red skinned onion with a white flesh and a mild but full flavour."
+  },
+  {
+   "name": "Garden Express — Seed - Onion Creamgold",
+   "vendor": "Garden Express",
+   "category": "seed",
+   "url": "https://www.gardenexpress.com.au/products/seed-onion-creamgold",
+   "status": "bot-blocked",
+   "variety": "Creamgold",
+   "onions": [
+    "cream-gold"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion Creamgold has smooth light brown, globe-shaped bulbs and pungent cream flesh, making Creamgold a winner in the garden."
+  },
+  {
+   "name": "Garden Express — Red Shallots",
+   "vendor": "Garden Express",
+   "category": "sets-bulbs",
+   "url": "https://www.gardenexpress.com.au/products/red-shallots",
+   "status": "bot-blocked",
+   "variety": "Red shallot",
+   "onions": [
+    "eschalot",
+    "red"
+   ],
+   "ships": "Australia-wide (bulbs may be restricted to WA/TAS by quarantine; check listing)",
+   "blurb": "Red Shallots are a smaller type of onion with a red pink colour."
+  },
+  {
+   "name": "Garden Express — Golden Shallots",
+   "vendor": "Garden Express",
+   "category": "sets-bulbs",
+   "url": "https://www.gardenexpress.com.au/products/golden-shallots",
+   "status": "bot-blocked",
+   "variety": "Golden shallot",
+   "onions": [
+    "eschalot"
+   ],
+   "ships": "Australia-wide (bulbs may be restricted to WA/TAS by quarantine; check listing)",
+   "blurb": "Golden Shallots are a smaller type of onion with a mild subtle onion flavour."
+  },
+  {
+   "name": "Garden Express — Potato Onions",
+   "vendor": "Garden Express",
+   "category": "sets-bulbs",
+   "url": "https://www.gardenexpress.com.au/products/potato-onions",
+   "status": "bot-blocked",
+   "variety": "Potato onions (multiplier)",
+   "onions": [
+    "potato-onion"
+   ],
+   "ships": "Australia-wide (bulbs may be restricted to WA/TAS by quarantine; check listing)",
+   "blurb": "Also known as Multiplier Onions, Potato Onions are given this name because they will grow clumps of mild tasting Onions under the surface of the soil."
+  },
+  {
+   "name": "Eden Seeds — Onion 'Amposta Purple' seed",
+   "vendor": "Eden Seeds",
+   "category": "seed",
+   "url": "https://www.edenseeds.com.au/Product-Info-Seeds?product=onion-amposta",
+   "status": "200",
+   "variety": "Amposta Purple",
+   "onions": [
+    "red"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion 'Amposta Purple' seed, sold by the packet."
+  },
+  {
+   "name": "Eden Seeds — Onion 'Aviv' seed",
+   "vendor": "Eden Seeds",
+   "category": "seed",
+   "url": "https://www.edenseeds.com.au/Product-Info-Seeds?product=onion-aviv",
+   "status": "200",
+   "variety": "Aviv",
+   "onions": [
+    "white"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion 'Aviv' seed, sold by the packet."
+  },
+  {
+   "name": "Eden Seeds — Onion 'Barletta White Pickling' seed",
+   "vendor": "Eden Seeds",
+   "category": "seed",
+   "url": "https://www.edenseeds.com.au/Product-Info-Seeds?product=onion-barletta-white-pickling",
+   "status": "200",
+   "variety": "Barletta White Pickling",
+   "onions": [
+    "barletta"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion 'Barletta White Pickling' seed, sold by the packet."
+  },
+  {
+   "name": "Eden Seeds — Onion 'Red Beard' seed",
+   "vendor": "Eden Seeds",
+   "category": "seed",
+   "url": "https://www.edenseeds.com.au/Product-Info-Seeds?product=onion-bunching-red-beard",
+   "status": "200",
+   "variety": "Red Beard",
+   "onions": [
+    "welsh-onion"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion 'Red Beard' seed, sold by the packet."
+  },
+  {
+   "name": "Eden Seeds — Onion 'Gladalan Brown' seed",
+   "vendor": "Eden Seeds",
+   "category": "seed",
+   "url": "https://www.edenseeds.com.au/Product-Info-Seeds?product=onion-gladalan",
+   "status": "200",
+   "variety": "Gladalan Brown",
+   "onions": [
+    "gladalan-brown",
+    "gladalan"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion 'Gladalan Brown' seed, sold by the packet."
+  },
+  {
+   "name": "Eden Seeds — Onion 'Gladalan White' seed",
+   "vendor": "Eden Seeds",
+   "category": "seed",
+   "url": "https://www.edenseeds.com.au/Product-Info-Seeds?product=onion-gladalan-white",
+   "status": "200",
+   "variety": "Gladalan White",
+   "onions": [
+    "gladalan-white",
+    "gladalan"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion 'Gladalan White' seed, sold by the packet."
+  },
+  {
+   "name": "Eden Seeds — Onion 'Golden Bologna' seed",
+   "vendor": "Eden Seeds",
+   "category": "seed",
+   "url": "https://www.edenseeds.com.au/Product-Info-Seeds?product=onion-golden-bologna",
+   "status": "200",
+   "variety": "Golden Bologna",
+   "onions": [
+    "brown"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion 'Golden Bologna' seed, sold by the packet."
+  },
+  {
+   "name": "Eden Seeds — Onion 'Long Tropea Red' seed",
+   "vendor": "Eden Seeds",
+   "category": "seed",
+   "url": "https://www.edenseeds.com.au/Product-Info-Seeds?product=onion-long-tropea-red",
+   "status": "200",
+   "variety": "Long Tropea Red",
+   "onions": [
+    "tropea"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion 'Long Tropea Red' seed, sold by the packet."
+  },
+  {
+   "name": "Eden Seeds — Onion 'Purplette' seed",
+   "vendor": "Eden Seeds",
+   "category": "seed",
+   "url": "https://www.edenseeds.com.au/Product-Info-Seeds?product=onion-purplette",
+   "status": "200",
+   "variety": "Purplette",
+   "onions": [
+    "pearl",
+    "pickling",
+    "red"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion 'Purplette' seed, sold by the packet."
+  },
+  {
+   "name": "Eden Seeds — Onion 'Red Brunswick' seed",
+   "vendor": "Eden Seeds",
+   "category": "seed",
+   "url": "https://www.edenseeds.com.au/Product-Info-Seeds?product=onion-red-brunswick",
+   "status": "200",
+   "variety": "Red Brunswick",
+   "onions": [
+    "red"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion 'Red Brunswick' seed, sold by the packet."
+  },
+  {
+   "name": "Eden Seeds — Onion 'Red Creole' seed",
+   "vendor": "Eden Seeds",
+   "category": "seed",
+   "url": "https://www.edenseeds.com.au/Product-Info-Seeds?product=onion-red-creole",
+   "status": "200",
+   "variety": "Red Creole",
+   "onions": [
+    "red"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion 'Red Creole' seed, sold by the packet."
+  },
+  {
+   "name": "Eden Seeds — Onion 'Texas Early Grano' seed",
+   "vendor": "Eden Seeds",
+   "category": "seed",
+   "url": "https://www.edenseeds.com.au/Product-Info-Seeds?product=onion-texas-early-grano",
+   "status": "200",
+   "variety": "Texas Early Grano",
+   "onions": [
+    "sweet",
+    "texas-early-grano"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion 'Texas Early Grano' seed, sold by the packet."
+  },
+  {
+   "name": "Eden Seeds — Onion 'White Queen' seed",
+   "vendor": "Eden Seeds",
+   "category": "seed",
+   "url": "https://www.edenseeds.com.au/Product-Info-Seeds?product=onion-white-queen",
+   "status": "200",
+   "variety": "White Queen",
+   "onions": [
+    "white",
+    "pearl"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion 'White Queen' seed, sold by the packet."
+  },
+  {
+   "name": "Eden Seeds — Onion 'White Utah Jumbo' seed",
+   "vendor": "Eden Seeds",
+   "category": "seed",
+   "url": "https://www.edenseeds.com.au/Product-Info-Seeds?product=onion-white-utah-jumbo",
+   "status": "200",
+   "variety": "White Utah Jumbo",
+   "onions": [
+    "white"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion 'White Utah Jumbo' seed, sold by the packet."
+  },
+  {
+   "name": "Eden Seeds — Onion 'Yellow Spanish Early' seed",
+   "vendor": "Eden Seeds",
+   "category": "seed",
+   "url": "https://www.edenseeds.com.au/Product-Info-Seeds?product=onion-yellow-spanish-early",
+   "status": "200",
+   "variety": "Yellow Spanish Early",
+   "onions": [
+    "brown"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Onion 'Yellow Spanish Early' seed, sold by the packet."
+  },
+  {
+   "name": "The Seed Collection — Golden Banana shallot bulbs",
+   "vendor": "The Seed Collection",
+   "category": "sets-bulbs",
+   "url": "https://www.theseedcollection.com.au/banana-shallot-golden-bulb",
+   "status": "200",
+   "variety": "Golden Banana shallot",
+   "onions": [
+    "banana-shallot"
+   ],
+   "ships": "Australia-wide (bulbs may be restricted to WA/TAS by quarantine; check listing)",
+   "blurb": "Banana shallots, also known as French Echalions, are a cross between an onion and a shallot."
+  },
+  {
+   "name": "The Seed Collection — Bunching onion seed",
+   "vendor": "The Seed Collection",
+   "category": "seed",
+   "url": "https://www.theseedcollection.com.au/bunching-onion",
+   "status": "200",
+   "variety": "Bunching onion",
+   "onions": [
+    "welsh-onion"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Bunching onion seeds."
+  },
+  {
+   "name": "The Seed Collection — Natsuyo seed",
+   "vendor": "The Seed Collection",
+   "category": "seed",
+   "url": "https://www.theseedcollection.com.au/bunching-onion-natsuyo",
+   "status": "200",
+   "variety": "Natsuyo",
+   "onions": [
+    "welsh-onion",
+    "japanese-bunching"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Allium fistulosum."
+  },
+  {
+   "name": "The Seed Collection — Red bunching seed",
+   "vendor": "The Seed Collection",
+   "category": "seed",
+   "url": "https://www.theseedcollection.com.au/bunching-onion-red",
+   "status": "200",
+   "variety": "Red bunching",
+   "onions": [
+    "spring-onion",
+    "red"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "A red-stemmed bunching onion suitable to grow year-round."
+  },
+  {
+   "name": "The Seed Collection — Red Beard seed",
+   "vendor": "The Seed Collection",
+   "category": "seed",
+   "url": "https://www.theseedcollection.com.au/Bunching-Onion-Red-Beard",
+   "status": "200",
+   "variety": "Red Beard",
+   "onions": [
+    "welsh-onion"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Allium fistulosum."
+  },
+  {
+   "name": "The Seed Collection — Winter Ishikura seed",
+   "vendor": "The Seed Collection",
+   "category": "seed",
+   "url": "https://www.theseedcollection.com.au/Bunching-Onion-Winter-Ishikura",
+   "status": "200",
+   "variety": "Winter Ishikura",
+   "onions": [
+    "welsh-onion",
+    "ishikura"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Allium fistulosum."
+  },
+  {
+   "name": "The Seed Collection — Golden shallot bulbs",
+   "vendor": "The Seed Collection",
+   "category": "sets-bulbs",
+   "url": "https://www.theseedcollection.com.au/golden-shallot-bulb",
+   "status": "200",
+   "variety": "Golden shallot",
+   "onions": [
+    "eschalot"
+   ],
+   "ships": "Australia-wide (bulbs may be restricted to WA/TAS by quarantine; check listing)",
+   "blurb": "Shallots are members of the Allium family, and grow as a clump (or 'set') loosely attached at the base."
+  },
+  {
+   "name": "The Seed Collection — Amposta Purple seed",
+   "vendor": "The Seed Collection",
+   "category": "seed",
+   "url": "https://www.theseedcollection.com.au/onion-amposta-purple",
+   "status": "200",
+   "variety": "Amposta Purple",
+   "onions": [
+    "red"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "An heirloom variety producing medium sized bulbs with red outer skin covering purple bulbs with dense purple/white flesh."
+  },
+  {
+   "name": "The Seed Collection — Cipollini seed",
+   "vendor": "The Seed Collection",
+   "category": "seed",
+   "url": "https://www.theseedcollection.com.au/onion-cipollini",
+   "status": "200",
+   "variety": "Cipollini",
+   "onions": [
+    "cipollini"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "A biennial (usually grown as an annual) that produces small, flat, disc-shaped onions with a gold skin."
+  },
+  {
+   "name": "The Seed Collection — Dolce Sweet seed",
+   "vendor": "The Seed Collection",
+   "category": "seed",
+   "url": "https://www.theseedcollection.com.au/onion-dolce-sweet",
+   "status": "200",
+   "variety": "Dolce Sweet",
+   "onions": [
+    "sweet"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Biennial (usually grown as an annual) producing large slightly flattened bulbs with golden coloured skin."
+  },
+  {
+   "name": "The Seed Collection — Early Long Day Brown seed",
+   "vendor": "The Seed Collection",
+   "category": "seed",
+   "url": "https://www.theseedcollection.com.au/onion-early-long-day-brown",
+   "status": "200",
+   "variety": "Early Long Day Brown",
+   "onions": [
+    "brown"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "An open-pollinated, long day-length variety that produces highly uniform, globe-shaped, yellow to brown bulbs that are 7-8cm in diameter."
+  },
+  {
+   "name": "The Seed Collection — Early White Spanish seed",
+   "vendor": "The Seed Collection",
+   "category": "seed",
+   "url": "https://www.theseedcollection.com.au/onion-early-white-spanish",
+   "status": "200",
+   "variety": "Early White Spanish",
+   "onions": [
+    "white"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Large white globe shaped Spanish onion with a mild sweet flavour."
+  },
+  {
+   "name": "The Seed Collection — Gladalan Brown seed",
+   "vendor": "The Seed Collection",
+   "category": "seed",
+   "url": "https://www.theseedcollection.com.au/Onion-Gladalan-Brown",
+   "status": "200",
+   "variety": "Gladalan Brown",
+   "onions": [
+    "gladalan-brown",
+    "gladalan"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Popular variety that produces medium to large brown onions."
+  },
+  {
+   "name": "The Seed Collection — Gladalan White seed",
+   "vendor": "The Seed Collection",
+   "category": "seed",
+   "url": "https://www.theseedcollection.com.au/Onion-Gladalan-White",
+   "status": "200",
+   "variety": "Gladalan White",
+   "onions": [
+    "gladalan-white",
+    "gladalan"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Popular variety that produces medium to large white round bulbs."
+  },
+  {
+   "name": "The Seed Collection — Long Tropea Red seed",
+   "vendor": "The Seed Collection",
+   "category": "seed",
+   "url": "https://www.theseedcollection.com.au/Onion-Long-Tropea-Red",
+   "status": "200",
+   "variety": "Long Tropea Red",
+   "onions": [
+    "tropea"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Italian variety."
+  },
+  {
+   "name": "The Seed Collection — Pukekohe Long Keeper seed",
+   "vendor": "The Seed Collection",
+   "category": "seed",
+   "url": "https://www.theseedcollection.com.au/Onion-Pukekohe-Long-Keeper",
+   "status": "200",
+   "variety": "Pukekohe Long Keeper",
+   "onions": [
+    "pukekohe-long-keeper"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Old New Zealand variety that is best suited to cooler climates."
+  },
+  {
+   "name": "The Seed Collection — Red Marksman seed",
+   "vendor": "The Seed Collection",
+   "category": "seed",
+   "url": "https://www.theseedcollection.com.au/onion-red-marksman",
+   "status": "200",
+   "variety": "Red Marksman",
+   "onions": [
+    "red-marksman"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Biennial (usually grown as an annual) producing dense, globe-shaped bulbs with deep red skin."
+  },
+  {
+   "name": "The Seed Collection — Yellow Spanish seed",
+   "vendor": "The Seed Collection",
+   "category": "seed",
+   "url": "https://www.theseedcollection.com.au/onion-yelllow-spanish",
+   "status": "200",
+   "variety": "Yellow Spanish",
+   "onions": [
+    "brown"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Large, globe-shaped yellow-skinned onion with a mild flavour and crisp, firm white flesh that keeps well."
+  },
+  {
+   "name": "The Seed Collection — Pearl White seed",
+   "vendor": "The Seed Collection",
+   "category": "seed",
+   "url": "https://www.theseedcollection.com.au/pearl-onion-white",
+   "status": "200",
+   "variety": "Pearl White",
+   "onions": [
+    "pearl",
+    "pickling",
+    "white"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "An open-pollinated, intermediate day-length variety that produces small, bright white bulbs that are 1.5-3cm in diameter."
+  },
+  {
+   "name": "The Seed Collection — Pearl Yellow seed",
+   "vendor": "The Seed Collection",
+   "category": "seed",
+   "url": "https://www.theseedcollection.com.au/pearl-onion-yellow",
+   "status": "200",
+   "variety": "Pearl Yellow",
+   "onions": [
+    "pearl",
+    "pickling"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "An open-pollinated, intermediate day-length variety that produces small, yellow to brown bulbs that are 1.5-3cm in diameter."
+  },
+  {
+   "name": "The Seed Collection — Red shallot bulbs",
+   "vendor": "The Seed Collection",
+   "category": "sets-bulbs",
+   "url": "https://www.theseedcollection.com.au/red-shallot-bulb",
+   "status": "200",
+   "variety": "Red shallot",
+   "onions": [
+    "eschalot",
+    "red"
+   ],
+   "ships": "Australia-wide (bulbs may be restricted to WA/TAS by quarantine; check listing)",
+   "blurb": "Red shallots are small to medium bulbs, a little smaller than an onion, with a sweet, mild flavour."
+  },
+  {
+   "name": "The Seed Collection — Figaro echalion seed",
+   "vendor": "The Seed Collection",
+   "category": "seed",
+   "url": "https://www.theseedcollection.com.au/shallot-figaro-echalion",
+   "status": "200",
+   "variety": "Figaro echalion",
+   "onions": [
+    "banana-shallot"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Biennial (usually grown as an annual) traditional French echalion with tapered bulbs and reddish brown skin."
+  },
+  {
+   "name": "The Seed Collection — Gourmet Banana echalion seed",
+   "vendor": "The Seed Collection",
+   "category": "seed",
+   "url": "https://www.theseedcollection.com.au/shallot-gourmet-banana",
+   "status": "200",
+   "variety": "Gourmet Banana echalion",
+   "onions": [
+    "banana-shallot"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Biennial (usually grown as an annual) traditional French echalion with a long tapered shape and copper pink skin."
+  },
+  {
+   "name": "The Seed Collection — Straight Leaf seed",
+   "vendor": "The Seed Collection",
+   "category": "seed",
+   "url": "https://www.theseedcollection.com.au/Spring-Onion-Straight-Leaf",
+   "status": "200",
+   "variety": "Straight Leaf",
+   "onions": [
+    "welsh-onion"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Allium fistulosum."
+  },
+  {
+   "name": "The Seed Collection — Calcot seed",
+   "vendor": "The Seed Collection",
+   "category": "seed",
+   "url": "https://www.theseedcollection.com.au/onion-calcot",
+   "status": "200",
+   "variety": "Calcot",
+   "onions": [
+    "calcot"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Heirloom Spanish green onion variety with long white stem."
+  },
+  {
+   "name": "The Seed Collection — Red Odourless seed",
+   "vendor": "The Seed Collection",
+   "category": "seed",
+   "url": "https://www.theseedcollection.com.au/Onion-Red-Odourless",
+   "status": "200",
+   "variety": "Red Odourless",
+   "onions": [
+    "red-odourless",
+    "odourless"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Large red bulbs with mild flavour."
+  },
+  {
+   "name": "The Seed Collection — Egyptian Walking Onion bulbs",
+   "vendor": "The Seed Collection",
+   "category": "sets-bulbs",
+   "url": "https://www.theseedcollection.com.au/walking-onion-bulb",
+   "status": "200",
+   "variety": "Egyptian Walking Onion",
+   "onions": [
+    "egyptian-walking"
+   ],
+   "ships": "Australia-wide except WA and TAS (minimum 5 bulbs)",
+   "blurb": "Allium x proliferum."
+  },
+  {
+   "name": "The Seed Collection — Australian Brown seed",
+   "vendor": "The Seed Collection",
+   "category": "seed",
+   "url": "https://www.theseedcollection.com.au/onion-australian-brown",
+   "status": "200",
+   "variety": "Australian Brown",
+   "onions": [
+    "australian-brown"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Biennial (usually grown as an annual) onion with 4-5 layers of dark brown skin over a white-fleshed bulb."
+  },
+  {
+   "name": "Bunnings — Mr Fothergill's Hunter River Brown Onion seeds",
+   "vendor": "Bunnings",
+   "category": "seed",
+   "url": "https://www.bunnings.com.au/mr-fothergill-s-hunter-river-brown-onion-vegetable-seeds_p2960473",
+   "status": "200",
+   "variety": "Hunter River Brown",
+   "onions": [
+    "hunter-river-brown"
+   ],
+   "ships": "Bunnings stores and online (Australia-wide)",
+   "blurb": "Reliable early variety producing large, globe-shaped bulbs with light brown skin and excellent storage, top choice for autumn sowing."
+  },
+  {
+   "name": "Bunnings — Mr Fothergill's Creamgold Onion seeds",
+   "vendor": "Bunnings",
+   "category": "seed",
+   "url": "https://www.bunnings.com.au/mr-fothergill-s-creamgold-onion-vegetable-seeds_p2960521",
+   "status": "200",
+   "variety": "Creamgold",
+   "onions": [
+    "cream-gold"
+   ],
+   "ships": "Bunnings stores and online (Australia-wide)",
+   "blurb": "Mid-season globe-shaped onion with light brown skin, creamy white flesh and bold, pungent flavour."
+  },
+  {
+   "name": "Bunnings — Mr Fothergill's Bunching Spring Onion seeds",
+   "vendor": "Bunnings",
+   "category": "seed",
+   "url": "https://www.bunnings.com.au/mr-fothergill-s-bunching-spring-onion-vegetable-seeds_p2960608",
+   "status": "200",
+   "variety": "Bunching",
+   "onions": [
+    "spring-onion"
+   ],
+   "ships": "Bunnings stores and online (Australia-wide)",
+   "blurb": "Bunching spring onion that produces long white stalks rather than bulbs."
+  },
+  {
+   "name": "Bunnings — Mr Fothergill's Gladalan White Onion seeds",
+   "vendor": "Bunnings",
+   "category": "seed",
+   "url": "https://www.bunnings.com.au/mr-fothergill-s-gladalan-white-onion-vegetable-seeds_p2960420",
+   "status": "200",
+   "variety": "Gladalan White",
+   "onions": [
+    "gladalan-white",
+    "gladalan"
+   ],
+   "ships": "Bunnings stores and online (Australia-wide)",
+   "blurb": "Medium to large round white bulbs that store well and can also be grown as spring onions."
+  },
+  {
+   "name": "Bunnings — Mr Fothergill's Early Californian Red Onion seeds",
+   "vendor": "Bunnings",
+   "category": "seed",
+   "url": "https://www.bunnings.com.au/mr-fothergill-s-early-californian-red-onion-vegetable-seeds_p2960471",
+   "status": "200",
+   "variety": "Early Californian Red",
+   "onions": [
+    "red"
+   ],
+   "ships": "Bunnings stores and online (Australia-wide)",
+   "blurb": "Red-skinned onion with mild white flesh, good for salads and cooking."
+  },
+  {
+   "name": "Bunnings — Mr Fothergill's Spring Onion Matrix seeds",
+   "vendor": "Bunnings",
+   "category": "seed",
+   "url": "https://www.bunnings.com.au/mr-fothergill-s-spring-onion-matrix-seeds_p0555738",
+   "status": "200",
+   "variety": "Matrix",
+   "onions": [
+    "spring-onion"
+   ],
+   "ships": "Bunnings stores and online (Australia-wide)",
+   "blurb": "RHS Matrix spring onion, winter hardy and slow to bulb."
+  },
+  {
+   "name": "Bunnings — Mr Fothergill's Paris Silverskin Onion seeds",
+   "vendor": "Bunnings",
+   "category": "seed",
+   "url": "https://www.bunnings.com.au/mr-fothergill-s-paris-silverskin-onion-vegetable-seeds_p2960475",
+   "status": "200",
+   "variety": "Paris Silverskin",
+   "onions": [
+    "pickling",
+    "pearl",
+    "white"
+   ],
+   "ships": "Bunnings stores and online (Australia-wide)",
+   "blurb": "Quick-growing small white pickling onion."
+  },
+  {
+   "name": "Bunnings — Onion Brown punnet (Allium cepa)",
+   "vendor": "Bunnings",
+   "category": "seedlings",
+   "url": "https://www.bunnings.com.au/onion-brown-punnet-allium-cepa_p0117349",
+   "status": "200",
+   "variety": "Brown (punnet)",
+   "onions": [
+    "brown"
+   ],
+   "ships": "In-store only",
+   "blurb": "Brown onion seedling punnet producing brown skins and mild cream flesh, best for cooking."
+  },
+  {
+   "name": "Bunnings — Spring Onion Red Legs punnet",
+   "vendor": "Bunnings",
+   "category": "seedlings",
+   "url": "https://www.bunnings.com.au/spring-onion-red-legs-punnet-allium-fistulosom_p0117365",
+   "status": "200",
+   "variety": "Red Legs",
+   "onions": [
+    "spring-onion",
+    "red"
+   ],
+   "ships": "In-store only",
+   "blurb": "Early maturing spring onion seedlings with strong flavoured, long red bulbs and dark green leaves."
+  },
+  {
+   "name": "Bunnings — Spring Onion punnet (Allium cepa)",
+   "vendor": "Bunnings",
+   "category": "seedlings",
+   "url": "https://www.bunnings.com.au/spring-onion-punnet-allium-cepa_p0117364",
+   "status": "200",
+   "variety": "Spring onion (punnet)",
+   "onions": [
+    "spring-onion"
+   ],
+   "ships": "In-store only",
+   "blurb": "Spring onion seedling punnet, sold in-store at Bunnings."
+  },
+  {
+   "name": "Bunnings — Spring Onion Red punnet",
+   "vendor": "Bunnings",
+   "category": "seedlings",
+   "url": "https://www.bunnings.com.au/spring-onion-red-punnet-pisum-sativum_p0099935",
+   "status": "200",
+   "variety": "Red spring onion (punnet)",
+   "onions": [
+    "spring-onion",
+    "red"
+   ],
+   "ships": "In-store only",
+   "blurb": "Red spring onion seedling punnet, sold in-store at Bunnings."
+  },
+  {
+   "name": "Yates — Spring Onion seeds",
+   "vendor": "Yates",
+   "category": "seed",
+   "url": "https://www.yates.com.au/seeds/vegetables/spring-onion/",
+   "status": "200",
+   "variety": "Spring onion",
+   "onions": [
+    "spring-onion"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Crisp and crunchy, with plump white stems topped with rich green leaves; grows year-round in most climates."
+  },
+  {
+   "name": "Yates — Onion Hunter River White seeds",
+   "vendor": "Yates",
+   "category": "seed",
+   "url": "https://www.yates.com.au/seeds/vegetables/onion-hunter-river-white/",
+   "status": "200",
+   "variety": "Hunter River White",
+   "onions": [
+    "hunter-river-white"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "An early variety with good sized white globes, excellent texture and mild taste; suitable for warmer districts."
+  },
+  {
+   "name": "Daleys Fruit Tree Nursery — Walking Onion plants",
+   "vendor": "Daleys Fruit Tree Nursery",
+   "category": "sets-bulbs",
+   "url": "https://www.daleysfruit.com.au/Walking-Onion-Allium-proliferum.htm",
+   "status": "200",
+   "variety": "Egyptian Walking Onion",
+   "onions": [
+    "egyptian-walking"
+   ],
+   "ships": "Australia-wide (check nursery quarantine notes)",
+   "blurb": "The easiest to grow of all onions, also known as Egyptian and top-setting onions."
+  },
+  {
+   "name": "Melbourne Foodforest — Egyptian Walking Onion bulbs x 3",
+   "vendor": "Melbourne Foodforest",
+   "category": "sets-bulbs",
+   "url": "https://melbournefoodforest.com.au/product/egyptian-walking-onion-perennial-bulbs-x-3/",
+   "status": "200",
+   "variety": "Egyptian Walking Onion",
+   "onions": [
+    "egyptian-walking"
+   ],
+   "ships": "Australia-wide, flat-rate tracked postage",
+   "blurb": "Rare perennial multiplier onion: plant one, get many."
+  },
+  {
+   "name": "Melbourne Foodforest — Egyptian Walking Onion bulbils x 9",
+   "vendor": "Melbourne Foodforest",
+   "category": "sets-bulbs",
+   "url": "https://melbournefoodforest.com.au/product/egyptian-walking-onion-bulbils/",
+   "status": "200",
+   "variety": "Egyptian Walking Onion (bulbils)",
+   "onions": [
+    "egyptian-walking"
+   ],
+   "ships": "Australia-wide, flat-rate tracked postage",
+   "blurb": "Egyptian walking onion bulbils, a rare perennial multiplier onion."
+  },
+  {
+   "name": "ActiveVista — Australian Brown onion seed",
+   "vendor": "ActiveVista",
+   "category": "seed",
+   "url": "https://www.activevista.com.au/product/australian-brown-onion-seed",
+   "status": "200",
+   "variety": "Australian Brown",
+   "onions": [
+    "australian-brown"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Late maturing intermediate day brown storage onion with large, firm, globe-shaped and pungent bulbs."
+  },
+  {
+   "name": "Succeed Heirlooms — Heirloom Onion Seeds",
+   "vendor": "Succeed Heirlooms",
+   "category": "seed",
+   "url": "https://www.succeedheirlooms.com.au/heirloom-vegetable-seed/heirloom-onion-seed",
+   "status": "200",
+   "variety": "Gladalan Brown and others",
+   "onions": [
+    "gladalan-brown",
+    "gladalan"
+   ],
+   "ships": "Australia-wide",
+   "blurb": "Traditional, open-pollinated heirloom onion varieties for the home gardener, including Gladalan Brown."
+  }
+ ],
+ "products": [
+  {
+   "name": "Woolworths Pickled Cocktail Onions 150g",
+   "vendor": "Woolworths",
+   "category": "pickled",
+   "url": "https://www.woolworths.com.au/shop/productdetails/668743/woolworths-pickled-cocktail-onions",
+   "status": "200",
+   "onions": [
+    "pearl",
+    "pickling"
+   ],
+   "blurb": "Own-brand pickled cocktail onions in a 150g jar."
+  },
+  {
+   "name": "Spring Gully White Cocktail Pickled Onions 150g",
+   "vendor": "Woolworths",
+   "category": "pickled",
+   "url": "https://www.woolworths.com.au/shop/productdetails/839561/spring-gully-white-cocktail-pickled-onions",
+   "status": "200",
+   "onions": [
+    "pearl",
+    "pickling"
+   ],
+   "blurb": "Zesty, crisp cocktail pickled onions, ideal for platters and salads."
+  },
+  {
+   "name": "Woolworths Onions Cocktail 500g",
+   "vendor": "Woolworths",
+   "category": "pickled",
+   "url": "https://www.woolworths.com.au/shop/productdetails/204294/woolworths-onions-cocktail",
+   "status": "200",
+   "onions": [
+    "pearl",
+    "pickling"
+   ],
+   "blurb": "Sweet pickled cocktail onions, ideal for cheeseboards."
+  },
+  {
+   "name": "Three Threes Pickled Onions 520g",
+   "vendor": "Woolworths",
+   "category": "pickled",
+   "url": "https://www.woolworths.com.au/shop/productdetails/504615/three-threes-pickled-onions",
+   "status": "200",
+   "onions": [
+    "pickling"
+   ],
+   "blurb": "Tangy pickled onions made with Australian-grown onions."
+  },
+  {
+   "name": "Woolworths Pickled Onions 500g",
+   "vendor": "Woolworths",
+   "category": "pickled",
+   "url": "https://www.woolworths.com.au/shop/productdetails/811239/woolworths-pickled-onions",
+   "status": "200",
+   "onions": [
+    "pickling"
+   ],
+   "blurb": "Own-brand pickled onions, 500g jar."
+  },
+  {
+   "name": "Three Threes Pickled Onions (range)",
+   "vendor": "Three Threes",
+   "category": "pickled",
+   "url": "https://www.threethrees.com.au/pickled-onions/",
+   "status": "200",
+   "onions": [
+    "pickling"
+   ],
+   "blurb": "Three Threes use only the finest Australian-grown onions in all their varieties of pickled onions."
+  },
+  {
+   "name": "Three Threes Old Style Pickled Onions 500g",
+   "vendor": "Coles",
+   "category": "pickled",
+   "url": "https://www.coles.com.au/product/three-threes-old-style-pickled-onions-500g-5610712",
+   "status": "bot-blocked",
+   "onions": [
+    "pickling"
+   ],
+   "blurb": "Old-style pickled onions from Three Threes, 500g."
+  },
+  {
+   "name": "Three Threes White Pickled Australian Onions 520g",
+   "vendor": "Coles",
+   "category": "pickled",
+   "url": "https://www.coles.com.au/product/three-threes-white-pickled-australian-onions-520g-389380",
+   "status": "bot-blocked",
+   "onions": [
+    "pickling",
+    "white"
+   ],
+   "blurb": "White pickled Australian onions, 520g."
+  },
+  {
+   "name": "Blue Banner Sliced Red Pickled Onions 525g",
+   "vendor": "Woolworths",
+   "category": "pickled",
+   "url": "https://www.woolworths.com.au/shop/productdetails/236812/blue-banner-sliced-red-pickled-onions",
+   "status": "200",
+   "onions": [
+    "red",
+    "pickling"
+   ],
+   "blurb": "Sliced red pickled onions from Tasmanian-heritage pickler Blue Banner."
+  },
+  {
+   "name": "Blue Banner Onions Pickled 525g",
+   "vendor": "Woolworths",
+   "category": "pickled",
+   "url": "https://www.woolworths.com.au/shop/productdetails/25087/blue-banner-onions-pickled",
+   "status": "200",
+   "onions": [
+    "pickling"
+   ],
+   "blurb": "Blue Banner pickled onions made with a secret recipe."
+  },
+  {
+   "name": "Blue Banner Pickled Onions Chilli 525g",
+   "vendor": "Woolworths",
+   "category": "pickled",
+   "url": "https://www.woolworths.com.au/shop/productdetails/176739/blue-banner-pickled-onions-chilli",
+   "status": "200",
+   "onions": [
+    "pickling"
+   ],
+   "blurb": "Chilli-spiked pickled onions from Blue Banner."
+  },
+  {
+   "name": "Fehlbergs Onions Pickled 500g",
+   "vendor": "Woolworths",
+   "category": "pickled",
+   "url": "https://www.woolworths.com.au/shop/productdetails/74080/fehlbergs-onions-pickled",
+   "status": "200",
+   "onions": [
+    "pickling"
+   ],
+   "blurb": "Pickled onions from Australian-owned Fehlbergs."
+  },
+  {
+   "name": "Blue Banner Pickled Onions 525g",
+   "vendor": "Coles",
+   "category": "pickled",
+   "url": "https://www.coles.com.au/product/blue-banner-pickled-onions-525g-197233",
+   "status": "bot-blocked",
+   "onions": [
+    "pickling"
+   ],
+   "blurb": "Blue Banner pickled onions at Coles."
+  },
+  {
+   "name": "Blue Banner Sliced Red Onion 525g",
+   "vendor": "Coles",
+   "category": "pickled",
+   "url": "https://www.coles.com.au/product/blue-banner-sliced-red-onion-525g-5328281",
+   "status": "bot-blocked",
+   "onions": [
+    "red",
+    "pickling"
+   ],
+   "blurb": "Sliced pickled red onion at Coles."
+  },
+  {
+   "name": "Dragon & Phoenix Ingredients Fried Shallot 100g",
+   "vendor": "Woolworths",
+   "category": "fried",
+   "url": "https://www.woolworths.com.au/shop/productdetails/44857/dragon-phoenix-ingredients-fried-shallot",
+   "status": "200",
+   "onions": [
+    "asian-red-shallot"
+   ],
+   "blurb": "Versatile crispy fried shallots, ideal for Asian dishes."
+  },
+  {
+   "name": "Dragon & Phoenix Fried Onions 1kg",
+   "vendor": "Woolworths",
+   "category": "fried",
+   "url": "https://www.woolworths.com.au/shop/productdetails/257349/dragon-phoenix-fried-onions",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Bulk 1kg pack of crispy fried onions."
+  },
+  {
+   "name": "Dragon & Phoenix Fried Shallots 100g",
+   "vendor": "Coles",
+   "category": "fried",
+   "url": "https://www.coles.com.au/product/dragon-and-phoenix-fried-shallots-100g-5462954",
+   "status": "bot-blocked",
+   "onions": [
+    "asian-red-shallot"
+   ],
+   "blurb": "Fried shallots for garnishing noodles, salads and curries."
+  },
+  {
+   "name": "Coles Asia Fried Shallots 110g",
+   "vendor": "Coles",
+   "category": "fried",
+   "url": "https://www.coles.com.au/product/coles-asia-fried-shallots-110g-7648341",
+   "status": "bot-blocked",
+   "onions": [
+    "asian-red-shallot"
+   ],
+   "blurb": "Own-brand crispy fried shallots."
+  },
+  {
+   "name": "Lantern Alley Fried Shallots 100g",
+   "vendor": "Woolworths",
+   "category": "fried",
+   "url": "https://www.woolworths.com.au/shop/productdetails/6030988/lantern-alley-fried-shallots",
+   "status": "200",
+   "onions": [
+    "asian-red-shallot"
+   ],
+   "blurb": "Crunchy fried shallots with no added MSG or preservatives."
+  },
+  {
+   "name": "Soul Papa Fried Shallots 110g",
+   "vendor": "Woolworths",
+   "category": "fried",
+   "url": "https://www.woolworths.com.au/shop/productdetails/6015114/soul-papa-fried-shallots",
+   "status": "200",
+   "onions": [
+    "asian-red-shallot"
+   ],
+   "blurb": "Crispy fried shallots to enhance everyday meals."
+  },
+  {
+   "name": "Tooba Red Fried Onion 400g",
+   "vendor": "Woolworths",
+   "category": "fried",
+   "url": "https://www.woolworths.com.au/shop/productdetails/56437/tooba-red-fried-onion",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Crunchy fried onion topping in a 400g pack."
+  },
+  {
+   "name": "Belladotti Salad Toppers Crispy Onions 90g",
+   "vendor": "Woolworths",
+   "category": "fried",
+   "url": "https://www.woolworths.com.au/shop/productdetails/167586/belladotti-salad-toppers-crispy-onions",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Crispy onion salad topper."
+  },
+  {
+   "name": "Belladotti Salad Toppers Crispy Onions Sprinkles 90g",
+   "vendor": "Coles",
+   "category": "fried",
+   "url": "https://www.coles.com.au/product/belladotti-salad-toppers-crispy-onions-sprinkles-90g-7030859",
+   "status": "bot-blocked",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Crispy onion sprinkles for salads."
+  },
+  {
+   "name": "French's Crispy Fried Onion 680g",
+   "vendor": "McCormick Australia",
+   "category": "fried",
+   "url": "https://www.mccormick.com.au/food-service/products/frenchs/toppers/crispy-fried-onion",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "French's Original Crispy Fried Onions are made with real onions for incredible taste and classic crunch."
+  },
+  {
+   "name": "Goldfish Brand Fried Shallot 200g",
+   "vendor": "Asian Pantry",
+   "category": "fried",
+   "url": "https://asianpantry.com.au/products/goldfish-brand-fried-shallot-200g",
+   "status": "bot-blocked",
+   "onions": [
+    "asian-red-shallot"
+   ],
+   "blurb": "Fried shallots sold online with Australia-wide delivery from Melbourne."
+  },
+  {
+   "name": "Hoyts Onion Dried 40g",
+   "vendor": "Woolworths",
+   "category": "dried",
+   "url": "https://www.woolworths.com.au/shop/productdetails/94610/hoyts-onion-dried",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Hoyts dried onion."
+  },
+  {
+   "name": "MasterFoods Onion Powder 40g",
+   "vendor": "Woolworths",
+   "category": "dried",
+   "url": "https://www.woolworths.com.au/shop/productdetails/35389/masterfoods-onion-powder",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "MasterFoods onion powder for seasoning."
+  },
+  {
+   "name": "MasterFoods Herbs and Spices Onion Powder Jar 44g",
+   "vendor": "Coles",
+   "category": "dried",
+   "url": "https://www.coles.com.au/product/masterfoods-herbs-and-spices-onion-powder-jar-44g-9466800",
+   "status": "bot-blocked",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "MasterFoods onion powder jar."
+  },
+  {
+   "name": "MasterFoods Onion Salt Blend 190g",
+   "vendor": "Woolworths",
+   "category": "dried",
+   "url": "https://www.woolworths.com.au/shop/productdetails/6013098/masterfoods-onion-salt-blend",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "A lightly herbed blend of salt and onion."
+  },
+  {
+   "name": "MasterFoods Onion Salt 178g",
+   "vendor": "Coles",
+   "category": "dried",
+   "url": "https://www.coles.com.au/product/masterfoods-onion-salt-178g-8566297",
+   "status": "bot-blocked",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "MasterFoods onion salt."
+  },
+  {
+   "name": "MasterFoods Onion Flakes 100g",
+   "vendor": "Woolworths",
+   "category": "dried",
+   "url": "https://www.woolworths.com.au/shop/productdetails/38077/masterfoods-onion-flakes",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Convenient dried onion flakes with a distinct, sweet flavour."
+  },
+  {
+   "name": "MasterFoods Large Onion Flakes 100g",
+   "vendor": "MasterFoods",
+   "category": "dried",
+   "url": "https://www.masterfoods.com.au/products/herbs-spices/masterfoods-large-onion-flakes-100g",
+   "status": "bot-blocked",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Large dried onion flakes from MasterFoods."
+  },
+  {
+   "name": "MasterFoods Finely Chopped Onion 270g",
+   "vendor": "Woolworths",
+   "category": "dried",
+   "url": "https://www.woolworths.com.au/shop/productdetails/6019621/masterfoods-finely-chopped-onion",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Convenient, mess-free finely chopped onion for savoury flavour."
+  },
+  {
+   "name": "Herbie's Spices Onion Powder 50g",
+   "vendor": "Herbie's Spices",
+   "category": "dried",
+   "url": "https://www.herbies.com.au/shop/herbs-and-spices/herbs/onion-powder-50g/",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "A convenient way to add onion flavour; dissolves instantly in foods."
+  },
+  {
+   "name": "ChefMaster Onion Flakes 1kg",
+   "vendor": "Brentcorp Foodservice",
+   "category": "dried",
+   "url": "https://www.brentcorp.com.au/product/chefmaster-onion-flakes-1kg/",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Bulk 1kg onions chopped, dried and lightly roasted for soups, casseroles and salads."
+  },
+  {
+   "name": "Dried Onion Flakes 1kg (IAG Foods)",
+   "vendor": "Amazon Australia",
+   "category": "dried",
+   "url": "https://www.amazon.com.au/Dried-Onion-Flakes-1-KG/dp/B07KJVQ7M5",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Bulk 1kg dehydrated onion flakes."
+  },
+  {
+   "name": "Continental Classics French Onion Soup 40g",
+   "vendor": "Woolworths",
+   "category": "soup-dip",
+   "url": "https://www.woolworths.com.au/shop/productdetails/34393/continental-classics-simmer-soup-french-onion",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Continental Classics simmer soup with sustainably grown onions."
+  },
+  {
+   "name": "Continental Classics French Onion Soup Salt Reduced 35g",
+   "vendor": "Woolworths",
+   "category": "soup-dip",
+   "url": "https://www.woolworths.com.au/shop/productdetails/41841/continental-classics-simmer-soup-french-onion-salt-reduced",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Salt-reduced French onion simmer soup."
+  },
+  {
+   "name": "Continental French Onion Soup Serves 4 40g",
+   "vendor": "Coles",
+   "category": "soup-dip",
+   "url": "https://www.coles.com.au/product/continental-french-onion-soup-serves-4-40g-129426",
+   "status": "bot-blocked",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "French onion soup mix, also used as a dip base with sour cream."
+  },
+  {
+   "name": "Continental French Onion Salt Reduced Soup 35g",
+   "vendor": "Coles",
+   "category": "soup-dip",
+   "url": "https://www.coles.com.au/product/continental-french-onion-salt-reduced-soup-serves-4-35g-105280",
+   "status": "bot-blocked",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Salt-reduced French onion soup mix."
+  },
+  {
+   "name": "Essentials Packet Soup Mix French Onion 40g",
+   "vendor": "Woolworths",
+   "category": "soup-dip",
+   "url": "https://www.woolworths.com.au/shop/productdetails/94699/essentials-packet-soup-mix-french-onion",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Own-brand French onion packet soup mix."
+  },
+  {
+   "name": "Chris' Dips French Onion 60g x 3",
+   "vendor": "Woolworths",
+   "category": "soup-dip",
+   "url": "https://www.woolworths.com.au/shop/productdetails/932567/chris-dips-french-onion",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Creamy French onion dip, three-pack."
+  },
+  {
+   "name": "Chris' Traditional French Onion Dip 200g",
+   "vendor": "Woolworths",
+   "category": "soup-dip",
+   "url": "https://www.woolworths.com.au/shop/productdetails/620882/chris-traditional-french-onion",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Browned onion infused dip with cream cheese."
+  },
+  {
+   "name": "Beerenberg Caramelised Onion Relish 280g",
+   "vendor": "Beerenberg",
+   "category": "relish",
+   "url": "https://beerenberg.com.au/products/the-caramelised-onion-relish",
+   "status": "bot-blocked",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Rich, sweet and savoury relish with onion (40%), made in the Adelaide Hills."
+  },
+  {
+   "name": "Beerenberg Caramelised Onion 280g",
+   "vendor": "Woolworths",
+   "category": "relish",
+   "url": "https://www.woolworths.com.au/shop/productdetails/310572/beerenberg-caramelised-onion",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Rich, versatile flavour on sandwiches, cheese platters and BBQ meats."
+  },
+  {
+   "name": "Beerenberg Caramelised Onion Chutney 280g",
+   "vendor": "Coles",
+   "category": "relish",
+   "url": "https://www.coles.com.au/product/beerenberg-caramelised-onion-chutney-280g-6874957",
+   "status": "bot-blocked",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Beerenberg caramelised onion chutney."
+  },
+  {
+   "name": "Woolworths Caramelised Onion Relish 260g",
+   "vendor": "Woolworths",
+   "category": "relish",
+   "url": "https://www.woolworths.com.au/shop/productdetails/663611/woolworths-caramelised-onion-relish",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Rich, sweet and tangy relish for barbecues."
+  },
+  {
+   "name": "Mrs Oldbucks Pantry Onion Marmalade",
+   "vendor": "Mrs Oldbucks Pantry",
+   "category": "relish",
+   "url": "https://mrsoldbuckspantry.com.au/product/onion-marmalade/",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Rich, sweet and savoury onion marmalade, perfect with cheese, burgers and roast meats."
+  },
+  {
+   "name": "Birds Eye Onion Rings 500g",
+   "vendor": "Woolworths",
+   "category": "frozen",
+   "url": "https://www.woolworths.com.au/shop/productdetails/470257/birds-eye-onion-rings",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Crunchy-crumb frozen onion rings, vegetarian and vegan."
+  },
+  {
+   "name": "McCain Frozen Onion Rings 500g",
+   "vendor": "Coles",
+   "category": "frozen",
+   "url": "https://www.coles.com.au/product/mccain-frozen-onion-rings-500g-3412478",
+   "status": "bot-blocked",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "McCain frozen onion rings."
+  },
+  {
+   "name": "McCain Pub Style Onion Rings 500g",
+   "vendor": "McCain Australia",
+   "category": "frozen",
+   "url": "https://mccain.com.au/products/categories/potato/pub-favourites/pub-style-onion-rings-500g/",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Pub-style onion rings, onion 54%."
+  },
+  {
+   "name": "Coles Frozen Onions Chopped 500g",
+   "vendor": "Coles",
+   "category": "frozen",
+   "url": "https://www.coles.com.au/product/coles-frozen-onions-chopped-500g-9321761",
+   "status": "bot-blocked",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "100% Australian grown chopped onions, frozen."
+  },
+  {
+   "name": "Woolworths Diced Onions 500g",
+   "vendor": "Woolworths",
+   "category": "frozen",
+   "url": "https://www.woolworths.com.au/shop/productdetails/768557/woolworths-diced-onions",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Frozen diced onions, grown in Australia."
+  },
+  {
+   "name": "Woolworths Prep Set Go Diced Frozen Onions 500g",
+   "vendor": "Woolworths",
+   "category": "frozen",
+   "url": "https://www.woolworths.com.au/shop/productdetails/61998/woolworths-prep-set-go-diced-frozen-onions",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Diced frozen onions for easy meals."
+  },
+  {
+   "name": "Woolworths Prep Set Go Sliced Frozen Onions 500g",
+   "vendor": "Woolworths",
+   "category": "frozen",
+   "url": "https://www.woolworths.com.au/shop/productdetails/61997/woolworths-prep-set-go-sliced-frozen-onions",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Sliced frozen onions."
+  },
+  {
+   "name": "Woolworths Sliced Onions 500g",
+   "vendor": "Woolworths",
+   "category": "frozen",
+   "url": "https://www.woolworths.com.au/shop/productdetails/768563/woolworths-sliced-onions",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Frozen sliced onions."
+  },
+  {
+   "name": "Market Fare Chopped Onions 500g",
+   "vendor": "Aldi",
+   "category": "frozen",
+   "url": "https://www.aldi.com.au/product/market-fare-chopped-onions-500g-000000000000370187",
+   "status": "200",
+   "onions": [
+    "brown"
+   ],
+   "blurb": "Quickly frozen chopped onions retaining flavour and aroma."
+  },
+  {
+   "name": "Woolworths — Spring Gully pickled sweet onions 500 g",
+   "vendor": "Woolworths",
+   "category": "pickled",
+   "url": "https://www.woolworths.com.au/shop/productdetails/14604/spring-gully-onions-sweet",
+   "status": "200",
+   "onions": [
+    "pickling"
+   ],
+   "blurb": "Spring Gully pickled onions in a 500 g jar, sold through Woolworths."
+  },
+  {
+   "name": "Woolworths — Spring Gully pickled brown onions 500 g",
+   "vendor": "Woolworths",
+   "category": "pickled",
+   "url": "https://www.woolworths.com.au/shop/productdetails/14605/spring-gully-onions-brown",
+   "status": "200",
+   "onions": [
+    "pickling"
+   ],
+   "blurb": "Spring Gully pickled onions in a 500 g jar, sold through Woolworths."
+  }
+ ],
  "names": [
   {
    "term": "Shallot",
@@ -6290,8 +9994,8 @@ window.EO = {
     },
     {
      "where": "NSW",
-     "means": "Sometimes the bulbing kind, since the green kind is a ‘shallot’",
-     "id": "bulb-spring-onion"
+     "means": "Used interchangeably with ‘shallot’",
+     "id": "spring-onion"
     },
     {
      "where": "UK",

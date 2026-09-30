@@ -131,7 +131,6 @@
     var title = p.name.indexOf(p.vendor) === 0 ? p.name.slice(p.vendor.length).replace(/^\s*[—–-]\s*/, "") : p.name;
     return '<article class="pcard"><span class="pcard__vendor">' + esc(p.vendor) + ' · ' + esc(catLabel(p.category)) + '</span>' +
       '<h3>' + esc(title || p.name) + '</h3>' + (p.blurb ? '<p>' + esc(p.blurb) + '</p>' : "") +
-      (kind === "product" ? '<p class="purity">' + esc(PURITY[p.category] || PURITY.other) + '</p>' : "") +
       (p.ships ? '<p class="purity">Ships: ' + esc(p.ships) + '</p>' : "") +
       '<div class="pcard__foot">' + (o ? onionChip(o) : '<span></span>') + '<span>' + linkStatus(p) + ' ' + ext(p.url, "View ↗", "btn btn--ghost btn--sm") + '</span></div></article>';
   }
@@ -179,7 +178,7 @@
       '<div class="row"><label for="fWhere">Where will you get it?</label><select id="fWhere"><option value="1">Supermarket only</option><option value="2" selected>Supermarkets and specialist grocers</option><option value="3">I will grow it</option><option value="4">Anywhere in the world</option></select></div>' +
       '<div class="finder__out" id="fOut" aria-live="polite"></div></div></div>' +
       '<div class="panel"><div class="panel__head"><h2>Featured onion</h2><span class="small muted">' + new Date().toLocaleDateString("en-AU", {weekday:"long", day:"numeric", month:"long"}) + '</span></div><div class="panel__body"><div class="featured">' + swatch(feat, "lg") + '<div><h3><a href="#/onion/' + feat.id + '">' + esc(feat.name) + '</a></h3><p class="small muted" style="margin:0 0 8px"><i>' + esc(feat.bot) + '</i></p><p>' + esc(feat.desc.split(". ")[0]) + '.</p>' +
-      '<table class="data" style="margin:4px 0 14px"><tbody><tr><td>Tears</td><td>' + tears(feat) + '</td></tr><tr><td>Sweetness</td><td>' + sugar(feat) + '</td></tr><tr><td>Australian stockists</td><td>' + feat._nStock + '</td></tr></tbody></table>' +
+      '<table class="data" style="margin:4px 0 14px"><tbody><tr><td>Tears</td><td>' + tears(feat) + '</td></tr><tr><td>Sweetness</td><td>' + sugar(feat) + '</td></tr><tr><td>' + (feat._nStock ? "Australian stockists" : "Seed & bulb listings") + '</td><td>' + (feat._nStock || feat._nSeed) + '</td></tr></tbody></table>' +
       '<a class="btn" href="#/onion/' + feat.id + '">View onion and stockists</a></div></div></div></div>' +
       '</div></section>' +
       '<section class="section"><div class="section__head"><div><h2>Find a stockist</h2><p>' + ns + ' Australian listings, by type of business.</p></div><a class="btn btn--ghost" href="#/stockists">Full stockist directory</a></div><div class="cats">' + catsHTML + '</div></section>' +
@@ -493,7 +492,7 @@
     var rows = keys.map(function (k) { return groups[k].map(function (s, i) { var o = (s.onions || []).map(function (t) { return TAG_TO_ONION[t]; }).filter(Boolean)[0]; return '<tr><td>' + (i === 0 ? '<b>' + esc(k) + '</b>' : "") + '</td><td>' + ext(s.url, esc(s.vendor), "name") + (s.blurb ? '<span class="blurb">' + esc(s.blurb) + '</span>' : "") + '</td><td class="nowrap">' + esc(L.seedcat[s.category] || s.category) + '</td><td>' + (o ? '<a href="#/onion/' + o.id + '">' + esc(o.short || o.name) + '</a>' : "—") + '</td><td>' + esc(s.ships || "") + '</td><td>' + linkStatus(s) + '</td><td class="nowrap">' + ext(s.url, "View ↗", "btn btn--ghost btn--sm") + '</td></tr>'; }).join(""); }).join("");
     return head("Seeds & sets", "Grow your own onion", D.seeds.length + " listings for onion seed, sets, bulbs and seedlings from " + vendors.length + " Australian suppliers, arranged by variety.") +
       '<div class="section" style="padding-top:20px">' + (D.growNote ? '<div class="notice" style="margin:0 0 20px"><h3>Day-length compatibility</h3><p>' + esc(D.growNote) + '</p></div>' : "") + chips +
-      (rows ? '<div class="tablewrap"><table class="data stock"><thead><tr><th>Variety</th><th>Supplier</th><th>Form</th><th>Codex entry</th><th>Shipping</th><th>Link</th><th></th></tr></thead><tbody>' + rows + '</tbody></table></div>' : '<div class="empty"><h3>No listings.</h3></div>') + '</div>';
+      (rows ? '<div class="tablewrap"><table class="data stock grow"><thead><tr><th>Variety</th><th>Supplier</th><th>Form</th><th>Codex entry</th><th>Shipping</th><th>Link</th><th></th></tr></thead><tbody>' + rows + '</tbody></table></div>' : '<div class="empty"><h3>No listings.</h3></div>') + '</div>';
   };
 
   /* pantry */

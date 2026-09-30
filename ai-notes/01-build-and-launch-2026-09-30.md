@@ -51,5 +51,8 @@ Content was researched on 2026-09-30 by parallel research agents (WebSearch/WebF
 - Links will rot. Re-check with: `grep -o 'https\?://[^"]*' data/data.js | sort -u | while read u; do printf '%s %s\n' "$(curl -sL -o /dev/null -w '%{http_code}' -A 'Mozilla/5.0' --max-time 15 "$u")" "$u"; done`
 
 ## Current state / still to do
-- Live and verified at desktop (1366, 1920) and phone widths.
+- Live and verified at desktop (1366×768, 1920×1080) and phone (390) widths; every route and every onion page rendered with no console errors.
+- Content at launch: 64 Codex onions (incl. ~38 international/regional with 140+ official/buy links), 216 Australian stockist listings (all states/territories), 139 seed/set/seedling listings from 15 suppliers, 59 preserved-onion products, 9 onion festivals, 17 "not an onion" rulings.
+- All ~570 outbound URLs were re-curled at the end: statuses in data.js reflect that pass. Coles returns 200 with a bot interstitial, so Coles links are forced to "Retailer site". Shopify stores (Diggers, Green Harvest, Harris Farm etc.) rate-limit bursts with 429, so many seed links show "Retailer site" even though they work in a browser.
+- Research gaps: no Hunter River Red, Walla Walla or grey-shallot seed found in AU shops; Asian/Indian grocer deep links are still the thinnest category (~19).
 - Ideas if Rob wants more: more Asian/Indian grocer deep links (thin: ~10), a printable "onion buyer's checklist", per-state stockist maps, link-rot check script as a GitHub Action.
